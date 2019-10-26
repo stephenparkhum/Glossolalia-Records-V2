@@ -1,0 +1,18 @@
+.HeaderNav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+ul li {
+    list-style: none;
+    padding: 0 40px;
+    align-self: center;
+    text-decoration: none;
+}
+
+a li {
+    text-decoration: none;
+    color: white;
+}
