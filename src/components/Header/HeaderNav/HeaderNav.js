@@ -11,8 +11,11 @@ function HeaderNav() {
         <a href="#">
             <li>artists</li>
         </a>
-        <a href="#">
+        <a href="http://glossolaliarecords.bandcamp.com">
             <li>store</li>
+        </a>
+        <a href="#">
+            <li>social</li>
         </a>
         <a href="#">
             <li>contact</li>

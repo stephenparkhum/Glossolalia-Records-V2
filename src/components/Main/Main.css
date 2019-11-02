@@ -1,0 +1,6 @@
+.Main-Content {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
