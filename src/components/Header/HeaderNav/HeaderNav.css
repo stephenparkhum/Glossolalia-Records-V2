@@ -1,3 +1,7 @@
+.HeaderNav {
+    padding-right: 36px;
+}
+
 .HeaderNav ul {
     display: flex;
     flex-direction: row;
