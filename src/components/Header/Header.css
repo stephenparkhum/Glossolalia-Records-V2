@@ -3,4 +3,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position:fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.HeaderLogo {
+    padding-left: 75px;
 }
