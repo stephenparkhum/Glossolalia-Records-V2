@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import NewsListItem from '../NewsList/NewsListItem/NewsListItem';
 import RecentReleases from '../RecentRelease/RecentRelease';
+import ArtistList from '../ArtistList/ArtistList';
 
 
 const MainContent = (props) => {
@@ -17,19 +18,18 @@ const MainContent = (props) => {
             <div className="MainNews"> 
                 <h1>{props.title}</h1>
                 <Switch>
-                    <Route path="/">
+                    <Route exact path="/">
                         <NewsListItem />
                         <NewsListItem />
                         <NewsListItem />
-                        
                     </Route>
                     <Route path="/artists">
-                        <p>Artists here</p>
+                        <ArtistList />
                     </Route>
                 </Switch>  
             </div>
             <Switch>
-                <Route path="/">
+                <Route exact path="/">
                     <RecentReleases />
                 </Route>
             </Switch>

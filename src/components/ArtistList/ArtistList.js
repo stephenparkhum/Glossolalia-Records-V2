@@ -1,15 +1,14 @@
 import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import ArtistListItem from './ArtistListItem/ArtistListItem';
+import ARTISTS from '../../data/artists';
+import './ArtistList.css';
 
 const ArtistList = () => {
+    const artistListDisplay = ARTISTS.map(artist => <div><ArtistListItem artist={artist}/></div>)
+
     return (
-        <div>
-            <h2>Artists</h2>
+        <div className="ArtistListMain">
+            {artistListDisplay}
         </div>
     )
 };
