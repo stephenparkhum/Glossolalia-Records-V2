@@ -74,21 +74,15 @@ const ARTISTS = [
         ]
     },
     {
-        name: 'Sophos',
+        name: 'σοφος',
         genre: 'Blacknoise',
         bio: '', 
         band_photo_url: '',
         albums: [
             {
-                title: 'Voir Dire',
-                release_date: '3/3/2015',
-                cover_art: 'https://f4.bcbits.com/img/a3169035059_10.jpg',
-
-            },
-            {
-                title: 'Scarlet Lakes',
-                release_date: '9/10/2013',
-                cover_art: 'https://f4.bcbits.com/img/a1456921813_10.jpg',
+                title: 'Ehecatl',
+                release_date: '2/14/2012',
+                cover_art: 'https://f4.bcbits.com/img/a3664279266_10.jpg',
 
             },
         ]

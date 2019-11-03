@@ -1,5 +1,5 @@
 .HeaderNav {
-    padding-right: 36px;
+    padding-right: 40px;
 }
 
 .HeaderNav ul {
@@ -11,10 +11,10 @@
 
 ul li {
     list-style: none;
-    padding: 0 35px;
     align-self: center;
     text-decoration: none;
     font-size: 20px;
+    margin: 0 25px;
 }
 
 a li {
@@ -24,4 +24,8 @@ a li {
 
 a {
     text-decoration: none;
+}
+
+li:hover {
+    border-bottom: 2px solid white;
 }
