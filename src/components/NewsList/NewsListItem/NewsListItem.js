@@ -2,6 +2,12 @@ import React from 'react';
 import './NewsListItem.css';
 
 const NewsListItem = () => {
+    const embedStyles = {
+        border: 0, 
+        width: `100%`,
+        height: `42px`
+    }
+
     return (
         <div className="NewsListItem">
             <h2>Cowardice / Grst Split Tape</h2>

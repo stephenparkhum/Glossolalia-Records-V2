@@ -16,13 +16,12 @@ function App() {
   return (
     <Router>
       <div className="App">
+      <Header />
       <Switch>
         <Route exact path="/">
-          <Header />
           <Main title="NEWS"/>
         </Route>
         <Route path="/artists">
-          <Header />
           <Main title="ARTISTS"/>
         </Route>
       </Switch>
