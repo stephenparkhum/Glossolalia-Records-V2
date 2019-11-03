@@ -10,7 +10,7 @@ import './App.css';
 // Components
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
-import ArtistList from './components/ArtistList/ArtistList';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -24,8 +24,11 @@ function App() {
         <Route path="/artists">
           <Main title="ARTISTS"/>
         </Route>
+        <Route path="/contact">
+          <Main title="CONTACT"/>
+        </Route>
       </Switch>
-        
+
       </div>
     </Router>
     

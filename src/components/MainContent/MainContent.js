@@ -9,6 +9,7 @@ import {
 import NewsListItem from '../NewsList/NewsListItem/NewsListItem';
 import RecentReleases from '../RecentRelease/RecentRelease';
 import ArtistList from '../ArtistList/ArtistList';
+import Contact from '../Contact/Contact';
 
 
 const MainContent = (props) => {
@@ -25,6 +26,9 @@ const MainContent = (props) => {
                     </Route>
                     <Route path="/artists">
                         <ArtistList />
+                    </Route>
+                    <Route path="/contact">
+                        <Contact />
                     </Route>
                 </Switch>  
             </div>
