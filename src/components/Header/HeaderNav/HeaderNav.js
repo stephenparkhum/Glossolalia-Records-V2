@@ -18,15 +18,15 @@ function HeaderNav() {
         <NavLink activeClassName="nav-active" to="/artists">
           <li>artists</li>
         </NavLink>
-        <a href="http://glossolaliarecords.bandcamp.com">
+        <a href="http://glossolaliarecords.bandcamp.com" target="_blank">
             <li>store</li>
-        </a>
-        <a href="#">
-            <li>social</li>
         </a>
         <NavLink activeClassName="nav-active" to="/contact">
           <li>contact</li>
         </NavLink>
+        <a href="http://eepurl.com/dACxuP" target="_blank">
+            <li>mailing list</li>
+        </a>
       </ul>
 
     </div>

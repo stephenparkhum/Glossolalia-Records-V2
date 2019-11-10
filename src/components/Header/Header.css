@@ -9,6 +9,7 @@
     background: var(--black);
     width: 100%;
     border-bottom: 1px solid var(--grey);
+    z-index: 9999;
 }
 
 .HeaderLogo {

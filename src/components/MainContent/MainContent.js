@@ -9,6 +9,9 @@ import RecentReleases from '../RecentRelease/RecentRelease';
 import ArtistList from '../ArtistList/ArtistList';
 import Contact from '../Contact/Contact';
 
+// Icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faBandcamp, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const MainContent = (props) => {
     return (
@@ -35,7 +38,12 @@ const MainContent = (props) => {
                     <RecentReleases />
                 </Route>
             </Switch>
-            
+        </div>
+        <div className="leftSocial">
+            <FontAwesomeIcon icon={faBandcamp} size="lg"/>
+            <FontAwesomeIcon icon={faFacebook} size="lg"/>
+            <FontAwesomeIcon icon={faInstagram} size="lg"/>
+            <FontAwesomeIcon icon={faYoutube} size="lg"/>
         </div>
             
         

@@ -4,10 +4,14 @@ import './Contact.css';
 const Contact = () => {
     return (
         <>
-        <h3>Demo Submissions</h3>
-        <p>Just don't.</p>
         <h3>Shipping Inquiries</h3>
-        <p>If you have any shipping questions, or concerns, contact us directly at glossolaliarecords@gmail.com</p>
+        <p>
+            For questions involving orders, logistics, and all else, direct your communications to:
+            glossolaliarecords@gmail.com
+        </p>
+        <p>
+        Sign up for the glossolalia records <a href="http://eepurl.com/dACxuP">mailing list</a> to receive information about upcoming releases, distro locations, and events.
+        </p>
         </>
     )
 }
