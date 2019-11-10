@@ -5,13 +5,12 @@
 .HeaderNav ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 
 ul li {
     list-style: none;
-    align-self: center;
     text-decoration: none;
     font-size: 22px;
     margin: 0 25px;
@@ -28,4 +27,9 @@ a {
 
 li:hover {
     font-weight: bold;
+}
+
+.nav-active {
+    font-weight: bold;
+
 }

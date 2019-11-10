@@ -1,6 +1,8 @@
 .ArtistListMain {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }

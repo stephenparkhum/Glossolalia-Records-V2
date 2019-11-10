@@ -6,6 +6,13 @@
     text-align: left;
 }
 
+.MainNews {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+}
+
 .MainNews h1 {
     text-align: left;
     padding-top: 0;

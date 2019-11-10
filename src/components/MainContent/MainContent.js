@@ -1,10 +1,8 @@
 import React from 'react';
 import './MainContent.css';
 import {
-    BrowserRouter as Router,
     Switch,
-    Route,
-    Link
+    Route
 } from "react-router-dom";
 import NewsListItem from '../NewsList/NewsListItem/NewsListItem';
 import RecentReleases from '../RecentRelease/RecentRelease';

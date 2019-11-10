@@ -1,7 +1,8 @@
 .RecentReleasesMain {
-    width: 40%;
+    width: 25%;
     margin-top: 0;
     padding-top: 0;
+    text-align: center;
 }
 
 .RecentReleasesList {

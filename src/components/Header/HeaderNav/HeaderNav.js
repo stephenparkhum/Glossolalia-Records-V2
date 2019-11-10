@@ -1,8 +1,5 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
   Link,
   NavLink
 } from "react-router-dom";
@@ -12,21 +9,24 @@ function HeaderNav() {
   return (
       <div className="HeaderNav">
       <ul>
-        <Link to="/">
+        <NavLink 
+          exact to="/"
+          activeClassName="nav-active"
+        >
           <li>news</li>
-        </Link>
-        <Link to="/artists">
+        </NavLink>
+        <NavLink activeClassName="nav-active" to="/artists">
           <li>artists</li>
-        </Link>
+        </NavLink>
         <a href="http://glossolaliarecords.bandcamp.com">
             <li>store</li>
         </a>
         <a href="#">
             <li>social</li>
         </a>
-        <Link to="/contact">
+        <NavLink activeClassName="nav-active" to="/contact">
           <li>contact</li>
-        </Link>
+        </NavLink>
       </ul>
 
     </div>
