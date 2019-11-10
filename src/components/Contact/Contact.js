@@ -10,7 +10,7 @@ const Contact = () => {
             glossolaliarecords@gmail.com
         </p>
         <p>
-        Sign up for the glossolalia records <a href="http://eepurl.com/dACxuP">mailing list</a> to receive information about upcoming releases, distro locations, and events.
+        Sign u for the glossolalia records <a href="http://eepurl.com/dACxuP">mailing list</a> to receive information about upcoming releases, distro locations, and events.
         </p>
         </>
     )
