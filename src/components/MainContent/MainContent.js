@@ -40,10 +40,19 @@ const MainContent = (props) => {
             </Switch>
         </div>
         <div className="leftSocial">
-            <FontAwesomeIcon icon={faBandcamp} size="lg"/>
-            <FontAwesomeIcon icon={faFacebook} size="lg"/>
-            <FontAwesomeIcon icon={faInstagram} size="lg"/>
-            <FontAwesomeIcon icon={faYoutube} size="lg"/>
+            <a href="http://glossolaliarecords.bandcamp.com" target="_blank">
+                <FontAwesomeIcon icon={faBandcamp} size="lg"/>
+            </a>
+            <a href="https://www.facebook.com/glossolaliarecords/" target="_blank">
+                <FontAwesomeIcon icon={faFacebook} size="lg"/>
+            </a>
+            <a href="https://www.instagram.com/glossolalia__records/" target="_blank">
+                <FontAwesomeIcon icon={faInstagram} size="lg"/>
+            </a>
+            <a href="https://www.youtube.com/channel/UCK0npcbZ33IppLUiq5GFh6A" target="_blank">
+                <FontAwesomeIcon icon={faYoutube} size="lg"/>
+            </a>
+            
         </div>
             
         
