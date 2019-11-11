@@ -23,7 +23,7 @@
     position: fixed;
     left: -10px;
     top: 27%;
-    background-color: black;
+    background-color: var(--black);
     border: 1px solid grey;
     /* border-radius: 10px; */
     width: 50px;
