@@ -75,3 +75,8 @@
     font-size: 35px;
     margin-right: 50px;
 }
+
+.ArtistFooterSocial svg:hover {
+    cursor: pointer;
+    color: white;
+}
