@@ -1,16 +1,19 @@
 .ArtistDetails {
     margin-left: 60px;
     text-align: left;
-    border: 1px solid blue;
 }
 
 .ArtistIndividual {
     text-transform: uppercase;
-    border: 1px solid red;
 }
 
 .ArtistIndividualBio {
     width: 85%;
+}
+
+.ArtistIndividualMain {
+    display: flex;
+    flex-direction: column;
 }
 
 .ArtistIndividualMain h1 {
@@ -26,16 +29,49 @@
     height: 300px;
 }
 
-.ArtistIndividualMain {
+.ArtistSubMain {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 125px;
-    border: 1px solid green;
+    margin-top: 100px;
 }
 
 .ArtistIndividualGenre {
     padding: 0;
     color: var(--grey);
     margin: 0;
+}
+
+.ArtistFooter {
+    margin-top: 25px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.ArtistFooter h2 {
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+
+.ArtistReleases {
+    margin-left: 20px;
+}
+
+.ArtistReleases h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.ArtistFooterSocial {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.ArtistFooterSocial svg {
+    color: var(--grey);
+    font-size: 35px;
+    margin-right: 50px;
 }
