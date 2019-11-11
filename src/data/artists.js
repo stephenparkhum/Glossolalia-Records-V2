@@ -91,20 +91,24 @@ const ARTISTS = [
 
 ARTISTS.recent = [
     {
-        recent_album: 'Pacta Sunt Servanda',
-        recent_artist: 'Lodge of the Empty Bed',
-        recent_album_url: 'https://f4.bcbits.com/img/a0040955700_10.jpg'
+        recent_album: 'Eyes Like Roadkill',
+        recent_artist: 'Faggot Front',
+        recent_album_art: 'https://f4.bcbits.com/img/a0381334008_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/eyes-like-roadkill'
     },
     {
-        recent_album: 'Pacta Sunt Servanda',
-        recent_artist: 'Lodge of the Empty Bed',
-        recent_album_url: 'https://f4.bcbits.com/img/a0040955700_10.jpg'
+        recent_album: 'I Cut Out My Tongue...',
+        recent_artist: 'J.S.H',
+        recent_album_art: 'https://f4.bcbits.com/img/a3515538374_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/i-cut-out-my-tongue-so-i-wont-speak-the-truth'
     },
     {
-        recent_album: 'Pacta Sunt Servanda',
-        recent_artist: 'Lodge of the Empty Bed',
-        recent_album_url: 'https://f4.bcbits.com/img/a0040955700_10.jpg'
+        recent_album: 'Cowardice / Grst',
+        recent_artist: 'Cowardice / Grst',
+        recent_album_art: 'https://f4.bcbits.com/img/a0388355448_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/cowardice-grst'
     },
+    
 ]
 
 export default ARTISTS;
