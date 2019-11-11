@@ -89,4 +89,22 @@ const ARTISTS = [
     },
 ];
 
+ARTISTS.recent = [
+    {
+        recent_album: 'Pacta Sunt Servanda',
+        recent_artist: 'Lodge of the Empty Bed',
+        recent_album_url: 'https://f4.bcbits.com/img/a0040955700_10.jpg'
+    },
+    {
+        recent_album: 'Pacta Sunt Servanda',
+        recent_artist: 'Lodge of the Empty Bed',
+        recent_album_url: 'https://f4.bcbits.com/img/a0040955700_10.jpg'
+    },
+    {
+        recent_album: 'Pacta Sunt Servanda',
+        recent_artist: 'Lodge of the Empty Bed',
+        recent_album_url: 'https://f4.bcbits.com/img/a0040955700_10.jpg'
+    },
+]
+
 export default ARTISTS;

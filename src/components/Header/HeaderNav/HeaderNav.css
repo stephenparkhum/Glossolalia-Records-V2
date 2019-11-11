@@ -18,14 +18,15 @@ ul li {
 
 a li {
     text-decoration: none;
-    color: white;
 }
 
 a {
+    color: white;
     text-decoration: none;
 }
 
 li:hover {
+    color: white;
     font-weight: bold;
 }
 
