@@ -10,8 +10,7 @@ import './App.css';
 // Components
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
-import Contact from './components/Contact/Contact';
-import NewsList from './components/NewsList/NewsList';
+import ArtistIndividual from './components/ArtistIndividual/ArtistIndividual';
 
 function App() {
   return (
@@ -28,8 +27,13 @@ function App() {
         <Route path="/contact">
           <Main title="CONTACT"/>
         </Route>
+        <Route path="/artist/gash">
+          <ArtistIndividual 
+            name="Gash"
+            genre="Death Metal"  
+          />
+        </Route>
       </Switch>
-
       </div>
     </Router>
     

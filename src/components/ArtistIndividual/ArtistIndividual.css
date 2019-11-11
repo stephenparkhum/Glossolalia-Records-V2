@@ -1,0 +1,37 @@
+.ArtistDetails {
+    margin-left: 60px;
+    text-align: left;
+}
+
+.ArtistIndividual {
+    text-transform: uppercase;
+}
+
+.ArtistIndividualBio {
+    width: 85%;
+}
+
+.ArtistIndividualMain h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.ArtistLogo {
+    background: var(--grey);
+    width: 300px;
+    height: 300px;
+}
+
+.ArtistIndividualMain {
+    display: flex;
+    flex-direction: row;
+    margin-top: 115px;
+}
+
+.ArtistIndividualGenre {
+    padding: 0;
+    color: var(--grey);
+    margin: 0;
+}

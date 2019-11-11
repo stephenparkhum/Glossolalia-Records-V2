@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="Contact-info">
         <h3>Shipping Inquiries</h3>
         <p>
-            For questions involving orders, logistics, and all else, direct your communications to:
+            For questions involving orders, logistics, and all else, direct your communications to: 
             <a href="mailto:glossolaliarecords@gmail.com">glossolaliarecords@gmail.com</a>
         </p>
         <p>

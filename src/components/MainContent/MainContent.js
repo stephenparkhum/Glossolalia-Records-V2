@@ -8,6 +8,7 @@ import NewsListItem from '../NewsList/NewsListItem/NewsListItem';
 import RecentReleases from '../RecentRelease/RecentRelease';
 import ArtistList from '../ArtistList/ArtistList';
 import Contact from '../Contact/Contact';
+import ArtistIndividual from '../ArtistIndividual/ArtistIndividual';
 
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
