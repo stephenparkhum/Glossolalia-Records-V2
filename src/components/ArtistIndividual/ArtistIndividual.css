@@ -1,10 +1,12 @@
 .ArtistDetails {
     margin-left: 60px;
     text-align: left;
+    border: 1px solid blue;
 }
 
 .ArtistIndividual {
     text-transform: uppercase;
+    border: 1px solid red;
 }
 
 .ArtistIndividualBio {
@@ -27,7 +29,9 @@
 .ArtistIndividualMain {
     display: flex;
     flex-direction: row;
-    margin-top: 115px;
+    justify-content: space-between;
+    margin-top: 125px;
+    border: 1px solid green;
 }
 
 .ArtistIndividualGenre {
