@@ -3,9 +3,9 @@
     text-align: left;
 }
 
-.ArtistIndividual {
+/* .ArtistIndividual {
     text-transform: uppercase;
-}
+} */
 
 .ArtistIndividualBio {
     width: 85%;
@@ -52,6 +52,7 @@
 .ArtistFooter h2 {
     margin: 0 0 10px 0;
     text-transform: uppercase;
+    font-size: 1.3rem;
 }
 
 .ArtistReleases {
