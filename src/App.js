@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import './App.css';
 
@@ -11,6 +10,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import ArtistIndividual from './components/ArtistIndividual/ArtistIndividual';
+import LeftSocial from './components/LeftSocial/LeftSocial';
 
 function App() {
   return (
@@ -35,6 +35,9 @@ function App() {
         </Route>
       </Switch>
       </div>
+      <Route path="/">
+        <LeftSocial />
+      </Route>
     </Router>
     
   );
