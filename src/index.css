@@ -3,7 +3,8 @@
   --grey: #707070;
 }
 
-* {
+html,
+body {
   box-sizing: border-box;
 }
 

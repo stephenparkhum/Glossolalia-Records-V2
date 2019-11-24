@@ -3,10 +3,6 @@
     text-align: left;
 }
 
-/* .ArtistIndividual {
-    text-transform: uppercase;
-} */
-
 .ArtistIndividualBio {
     width: 85%;
 }
@@ -72,12 +68,12 @@
 }
 
 .ArtistFooterSocial svg {
-    color: var(--grey);
+    color: white;
     font-size: 35px;
     margin-right: 50px;
 }
 
 .ArtistFooterSocial svg:hover {
     cursor: pointer;
-    color: white;
+    color: var(--grey);
 }
