@@ -12,7 +12,9 @@ import Main from './components/Main/Main';
 import ArtistIndividual from './components/ArtistIndividual/ArtistIndividual';
 import LeftSocial from './components/LeftSocial/LeftSocial';
 
-function App() {
+function App(props) {
+  console.log(props);
+
   return (
     <Router>
       <div className="App">
