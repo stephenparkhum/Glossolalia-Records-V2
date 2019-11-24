@@ -27,16 +27,6 @@ class App extends Component {
           <Route exact path="/artists">
             <Main title="ARTISTS"/>
           </Route>
-          {/* <Route 
-            path="/artists/:id" 
-            render={(name) => {
-              return (
-                <ArtistIndividual 
-                  name={name}
-                />
-              )
-            }}
-          /> */}
           <Route path="/artists/gash">
             <ArtistIndividual 
               name="Gash"
