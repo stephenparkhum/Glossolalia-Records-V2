@@ -17,6 +17,10 @@ ul li {
     height: 100%;
 }
 
+ul li:hover {
+    cursor: pointer;
+}
+
 a li {
     text-decoration: none;
 }
@@ -29,6 +33,7 @@ a {
 li:hover {
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .nav-active {

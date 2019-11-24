@@ -12,7 +12,7 @@ const ArtistListItem = ({artist}) => {
 
     return (
         <div className="ArtistListEach">
-            <Link to={`/artist/${adjustBandNameForRoute(artist.name)}`}>
+            <Link to={`/artists/${adjustBandNameForRoute(artist.name)}`}>
                 <img className="ArtistImgDisplay" src={artist.albums[0].cover_art} alt={artist.albums[0].title}/>
             </Link>
             <h4>{artist.name}</h4>
