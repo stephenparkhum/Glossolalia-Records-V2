@@ -1,5 +1,10 @@
 import React from 'react';
 import './ArtistIndividual.css';
+import {
+    useParams,
+} from "react-router-dom";
+
+import ARTISTS from '../../data/artists';
 
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -7,13 +12,22 @@ import { faFacebook, faBandcamp, faInstagram, faYoutube } from '@fortawesome/fre
 
 
 const ArtistIndividual = (props) => {
+    const adjustRouteNameForBand = (name) => {
+        name = name.toUpperCase();
+        let bandRoute = name.split("-");
+        let finalBandRoute = bandRoute.join(" ");
+        return finalBandRoute;
+    };
+
+    // const getCurrentArtist = ARTISTS.filter(word => word.name.toLowerCase() === props.match.artist);
+
     return (
         <div className="ArtistIndividualMain">
             <div className="ArtistSubMain">
                 <div className="ArtistLogo"></div>
                     <div className="ArtistDetails">
                         <div className="ArtistIndividual">
-                            <h1>{props.name}</h1>
+                            <h1>{adjustRouteNameForBand(props.name)}</h1>
                             <p className="ArtistIndividualGenre">{props.genre}</p>
                         </div>
                     <div className="ArtistIndividualBio">

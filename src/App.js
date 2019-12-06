@@ -3,8 +3,10 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  useParams
 } from "react-router-dom";
 import './App.css';
+
 
 // Components
 import Header from './components/Header/Header';
@@ -13,8 +15,7 @@ import ArtistIndividual from './components/ArtistIndividual/ArtistIndividual';
 import LeftSocial from './components/LeftSocial/LeftSocial';
 
 class App extends Component {
-
-  render() { 
+  render() {
 
     return (
       <Router>
@@ -27,12 +28,13 @@ class App extends Component {
           <Route exact path="/artists">
             <Main title="ARTISTS"/>
           </Route>
-          <Route path="/artists/gash">
-            <ArtistIndividual 
-              name="Gash"
-              genre="Death Metal"  
-            />
-          </Route>
+          <Route 
+            path="/artists/:artist"
+            component={(props) => {
+              console.log(props.match)
+              return <ArtistIndividual name={props.match.params.artist} />
+            }}
+          />
           <Route path="/contact">
             <Main title="CONTACT"/>
           </Route>

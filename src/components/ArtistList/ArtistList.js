@@ -4,7 +4,7 @@ import ARTISTS from '../../data/artists';
 import './ArtistList.css';
 
 const ArtistList = () => {
-    const artistListDisplay = ARTISTS.map(artist => <div><ArtistListItem artist={artist}/></div>)
+    const artistListDisplay = ARTISTS.map(artist => <div key={artist}><ArtistListItem artist={artist}/></div>)
 
     return (
         <div className="ArtistListMain">

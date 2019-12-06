@@ -8,7 +8,7 @@ const RecentReleases = () => {
     const displayRecentReleases = ARTISTS.recent.map((artist) => 
             {return (
                 <div className="RecentRelease">
-                    <a href={artist.recent_album_url} target="_blank">
+                    <a href={artist.recent_album_url} target="_blank" rel="noopener noreferrer">
                         <img className="RecentAlbum" src={artist.recent_album_art} alt={artist.recent_album}/>
                     </a>
                     <p className="RecentTitle">{artist.recent_album}</p>
