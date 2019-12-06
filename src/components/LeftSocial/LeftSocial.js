@@ -8,16 +8,16 @@ import { faFacebook, faBandcamp, faInstagram, faYoutube } from '@fortawesome/fre
 const LeftSocial = () => {
     return (
         <div className="leftSocial">
-            <a href="http://glossolaliarecords.bandcamp.com" target="_blank">
+            <a href="http://glossolaliarecords.bandcamp.com" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faBandcamp} size="lg"/>
             </a>
-            <a href="https://www.facebook.com/glossolaliarecords/" target="_blank">
+            <a href="https://www.facebook.com/glossolaliarecords/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFacebook} size="lg"/>
             </a>
-            <a href="https://www.instagram.com/glossolalia__records/" target="_blank">
+            <a href="https://www.instagram.com/glossolalia__records/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faInstagram} size="lg"/>
             </a>
-            <a href="https://www.youtube.com/channel/UCK0npcbZ33IppLUiq5GFh6A" target="_blank">
+            <a href="https://www.youtube.com/channel/UCK0npcbZ33IppLUiq5GFh6A" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faYoutube} size="lg"/>
             </a>
             

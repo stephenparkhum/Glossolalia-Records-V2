@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  Link,
   NavLink
 } from "react-router-dom";
 import './HeaderNav.css';
@@ -18,13 +17,13 @@ function HeaderNav() {
         <NavLink activeClassName="nav-active" to="/artists">
           <li>artists</li>
         </NavLink>
-        <a href="http://glossolaliarecords.bandcamp.com" target="_blank">
+        <a href="http://glossolaliarecords.bandcamp.com" target="_blank" rel="noopener noreferrer">
             <li>store</li>
         </a>
         <NavLink activeClassName="nav-active" to="/contact">
           <li>contact</li>
         </NavLink>
-        <a href="http://eepurl.com/dACxuP" target="_blank">
+        <a href="http://eepurl.com/dACxuP" target="_blank" rel="noopener noreferrer">
             <li>mailing list</li>
         </a>
       </ul>

@@ -1,8 +1,5 @@
 import React from 'react';
 import './ArtistIndividual.css';
-import {
-    useParams,
-} from "react-router-dom";
 
 import ARTISTS from '../../data/artists';
 
