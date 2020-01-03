@@ -2,7 +2,7 @@ const ARTISTS = [
     {
         name: 'Gash',
         genre: 'Death Metal',
-        bio: '', 
+        bio: 'Here\'s a test bio!', 
         band_photo_url: '',
         albums: [
             {

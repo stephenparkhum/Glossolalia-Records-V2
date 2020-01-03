@@ -16,17 +16,26 @@ const ArtistIndividual = (props) => {
         return finalBandRoute;
     };
 
-    const getCurrentArtist = (currentArtist) => {
+    const getCurrentArtist = (currentArtist, props) => {
         currentArtist = currentArtist.toUpperCase();
-        console.log(ARTISTS);
-        console.log(ARTISTS.filter(artist => artist == currentArtist));
+        console.log(props.name);
+        let currentArtistDisplay = adjustRouteNameForBand(props.name);
+        for (let i = 0; i < ARTISTS.length; i++) {
+            if (ARTISTS[i].name.toUpperCase() === currentArtist.toUpperCase()) {
+                currentArtistDisplay = ARTISTS[i];
+                console.log(currentArtistDisplay);
+                return currentArtistDisplay;
+            }
+        }
     };
+
+    let currentArtistObject = getCurrentArtist(props.name, props);
 
     // const getCurrentArtist = ARTISTS.filter(word => word.name.toLowerCase() === props.match.artist);
 
     return (
         <div className="ArtistIndividualMain">
-        {getCurrentArtist(props.name)}
+        {}
             <div className="ArtistSubMain">
                 <div className="ArtistLogo"></div>
                     <div className="ArtistDetails">
@@ -36,7 +45,7 @@ const ArtistIndividual = (props) => {
                         </div>
                     <div className="ArtistIndividualBio">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            {currentArtistObject.bio}
                         </p>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

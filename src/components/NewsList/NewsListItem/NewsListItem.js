@@ -6,7 +6,7 @@ const NewsListItem = () => {
         border: 0, 
         width: `100%`,
         height: `42px`
-    }
+    };
 
     return (
         <div className="NewsListItem">
