@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './ArtistIndividual.css';
 
 import ARTISTS from '../../data/artists';
@@ -16,10 +16,17 @@ const ArtistIndividual = (props) => {
         return finalBandRoute;
     };
 
+    const getCurrentArtist = (currentArtist) => {
+        currentArtist = currentArtist.toUpperCase();
+        console.log(ARTISTS);
+        console.log(ARTISTS.filter(artist => artist == currentArtist));
+    };
+
     // const getCurrentArtist = ARTISTS.filter(word => word.name.toLowerCase() === props.match.artist);
 
     return (
         <div className="ArtistIndividualMain">
+        {getCurrentArtist(props.name)}
             <div className="ArtistSubMain">
                 <div className="ArtistLogo"></div>
                     <div className="ArtistDetails">

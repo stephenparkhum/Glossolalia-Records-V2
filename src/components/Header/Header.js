@@ -8,7 +8,7 @@ function Header() {
   return (
     <div className="Header">
         <div className="HeaderLogo">
-            <h2>glossolalia records</h2>
+            <h2><a href="/">glossolalia records</a></h2>
         </div>
         <HeaderNav />
     </div>

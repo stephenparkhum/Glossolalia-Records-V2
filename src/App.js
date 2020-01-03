@@ -31,7 +31,6 @@ class App extends Component {
           <Route 
             path="/artists/:artist"
             component={(props) => {
-              console.log(props.match)
               return <ArtistIndividual name={props.match.params.artist} />
             }}
           />

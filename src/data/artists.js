@@ -87,6 +87,60 @@ const ARTISTS = [
             },
         ]
     },
+    {
+        name: 'The Will of a Million',
+        genre: 'Black Metal',
+        bio: '', 
+        band_photo_url: '',
+        albums: [
+            {
+                title: 'Les Étoiles',
+                release_date: '2/10/2015',
+                cover_art: 'https://f4.bcbits.com/img/a3053566812_10.jpg',
+
+            },
+            {
+                title: 'Grst / The Will of a Million',
+                release_date: '1/3/2014',
+                cover_art: 'https://f4.bcbits.com/img/a3086771504_10.jpg',
+
+            },
+            {
+                title: 'A Lull',
+                release_date: '5/1/2012',
+                cover_art: 'https://f4.bcbits.com/img/a1530894982_10.jpg',
+
+            },
+        ]
+    },
+    {
+        name: 'Willowbrook',
+        genre: 'Harsh Noise',
+        bio: '', 
+        band_photo_url: '',
+        albums: [
+            {
+                title: 'Willowbrook',
+                release_date: '2/10/2015',
+                cover_art: 'https://f4.bcbits.com/img/a2363795892_10.jpg',
+
+            },
+        ]
+    },
+    {
+        name: 'Затухание',
+        genre: 'Blacknoise',
+        bio: '', 
+        band_photo_url: '',
+        albums: [
+            {
+                title: 'Затухание',
+                release_date: '1/29/2012',
+                cover_art: 'https://f4.bcbits.com/img/a0084679667_10.jpg',
+
+            },
+        ]
+    },
 ];
 
 ARTISTS.recent = [
