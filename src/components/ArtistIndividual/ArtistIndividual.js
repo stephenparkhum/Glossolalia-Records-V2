@@ -31,8 +31,6 @@ const ArtistIndividual = (props) => {
 
     let currentArtistObject = getCurrentArtist(props.name, props);
 
-    // const getCurrentArtist = ARTISTS.filter(word => word.name.toLowerCase() === props.match.artist);
-
     return (
         <div className="ArtistIndividualMain">
         {}
