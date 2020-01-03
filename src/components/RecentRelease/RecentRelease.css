@@ -1,36 +1,49 @@
-.RecentReleasesMain {
-    width: 25%;
-    margin-top: 0;
-    padding-top: 0;
-    text-align: center;
+/* DESKTOP  */
+@media screen and (min-width: 701px) {
+    .RecentReleasesMain {
+        width: 25%;
+        margin-top: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+    
+    .RecentReleasesList {
+        border: 1px solid grey;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .RecentAlbum {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        border: 1px solid white;
+    }
+    
+    .RecentTitle {
+        padding: 0;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    
+    .RecentArtist {
+        color: grey;
+        padding: 0;
+        margin-bottom: 35px;
+        margin-top: 0;
+    }
+    
 }
 
-.RecentReleasesList {
-    border: 1px solid grey;
-    height: 50%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.RecentAlbum {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    border: 1px solid white;
-}
 
-.RecentTitle {
-    padding: 0;
-    margin-top: 5px;
-    margin-bottom: 0;
-}
-
-.RecentArtist {
-    color: grey;
-    padding: 0;
-    margin-bottom: 35px;
-    margin-top: 0;
+/* MOBILE  */
+@media screen and (max-width: 950px) {
+    .RecentReleasesMain {
+        display: none;
+    }
 }
