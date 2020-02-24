@@ -1,5 +1,6 @@
 import React from 'react';
 import './NewsListItem.css';
+import NEWS from '../../../data/news';
 
 const NewsListItem = () => {
     const embedStyles = {

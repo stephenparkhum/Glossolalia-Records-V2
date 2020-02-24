@@ -4,6 +4,7 @@ const ARTISTS = [
         genre: 'Death Metal',
         bio: 'Here\'s a test bio!', 
         band_photo_url: '',
+        band_url: 'https://glossolaliarecords.bandcamp.com/album/crossing-the-lugubrious-plateau',
         albums: [
             {
                 title: 'Crossing the Lugubrious Plateau',
@@ -18,6 +19,7 @@ const ARTISTS = [
         genre: 'Black Metal',
         bio: '', 
         band_photo_url: '',
+        band_url: 'https://glossolaliarecords.bandcamp.com/album/cowardice-grst',
         albums: [
             {
                 title: 'Plague Seed',
@@ -44,6 +46,7 @@ const ARTISTS = [
         genre: 'Blackdeath',
         bio: '', 
         band_photo_url: '',
+        band_url: 'https://glossolaliarecords.bandcamp.com/album/frothing-to-betray-limbs',
         albums: [
             {
                 title: 'Pacta Sunt Servanda',
@@ -58,6 +61,7 @@ const ARTISTS = [
         genre: 'Blackdoom',
         bio: '', 
         band_photo_url: '',
+        band_url: 'https://glossolaliarecords.bandcamp.com/album/voir-dire',
         albums: [
             {
                 title: 'Voir Dire',
@@ -78,6 +82,7 @@ const ARTISTS = [
         genre: 'Blacknoise',
         bio: '', 
         band_photo_url: '',
+        band_url: 'https://glossolaliarecords.bandcamp.com/album/ehecatl',
         albums: [
             {
                 title: 'Ehecatl',
@@ -92,6 +97,7 @@ const ARTISTS = [
         genre: 'Black Metal',
         bio: '', 
         band_photo_url: '',
+        band_url: 'https://glossolaliarecords.bandcamp.com/album/les-toiles',
         albums: [
             {
                 title: 'Les Étoiles',
@@ -118,6 +124,7 @@ const ARTISTS = [
         genre: 'Harsh Noise',
         bio: '', 
         band_photo_url: '',
+        band_url: 'https://glossolaliarecords.bandcamp.com/album/the-infantile-pliancy',
         albums: [
             {
                 title: 'Willowbrook',
@@ -132,6 +139,7 @@ const ARTISTS = [
         genre: 'Blacknoise',
         bio: '', 
         band_photo_url: '',
+        band_url: 'https://glossolaliarecords.bandcamp.com/album/--2',
         albums: [
             {
                 title: 'Затухание',
