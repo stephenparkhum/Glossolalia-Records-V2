@@ -22,6 +22,11 @@
         width: 90%;
     }
 
+    .NewsListDate {
+        color: gray;
+        font-size: 18px;
+    }
+
     .NewsListItem {
         margin-bottom: initial;
         width: 100%;
@@ -29,10 +34,16 @@
         text-align: center;
     }
 
-    .NewsListContent {
+    .NewsListItem h2 {
+        font-size: 30px;
+    }
+
+    p.NewsListContent {
         padding-top: 8px;
         line-height: 1.9;
         padding-right: 0;
         margin: 0 auto;
+        padding-bottom: 25px;
+        font-size: 20px;
     }
 }

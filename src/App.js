@@ -13,6 +13,7 @@ import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import ArtistIndividual from './components/ArtistIndividual/ArtistIndividual';
 import LeftSocial from './components/LeftSocial/LeftSocial';
+import ButtonMobileMenu from './components/BottomMobileMenu/BottomMobileMenu';
 
 class App extends Component {
   render() {
@@ -41,6 +42,7 @@ class App extends Component {
         </div>
         <Route path="/">
           <LeftSocial />
+          <ButtonMobileMenu />
         </Route>
       </Router>
       
