@@ -153,22 +153,22 @@ const ARTISTS = [
 
 ARTISTS.recent = [
     {
-        recent_album: 'Eyes Like Roadkill',
-        recent_artist: 'Faggot Front',
-        recent_album_art: 'https://f4.bcbits.com/img/a0381334008_10.jpg',
-        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/eyes-like-roadkill'
+        recent_album: 'Anti​-​Vaxxer',
+        recent_artist: 'Bacillus',
+        recent_album_art: 'https://f4.bcbits.com/img/a0557265547_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/anti-vaxxer'
     },
     {
-        recent_album: 'I Cut Out My Tongue...',
-        recent_artist: 'J.S.H',
-        recent_album_art: 'https://f4.bcbits.com/img/a3515538374_10.jpg',
-        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/i-cut-out-my-tongue-so-i-wont-speak-the-truth'
+        recent_album: 'Flesh Cage / Willowbrook',
+        recent_artist: 'Flesh Cage / Willowbrook',
+        recent_album_art: 'https://f4.bcbits.com/img/a2820328825_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/flesh-cage-willowbrook'
     },
     {
-        recent_album: 'Cowardice / Grst',
-        recent_artist: 'Cowardice / Grst',
-        recent_album_art: 'https://f4.bcbits.com/img/a0388355448_10.jpg',
-        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/cowardice-grst'
+        recent_album: 'Dreamt Ascent',
+        recent_artist: 'Rainwashed Sky',
+        recent_album_art: 'https://f4.bcbits.com/img/a3084333223_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/dreamt-ascent'
     },
     
 ]

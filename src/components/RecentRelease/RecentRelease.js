@@ -7,7 +7,7 @@ import ARTISTS from '../../data/artists';
 const RecentReleases = () => {
     const displayRecentReleases = ARTISTS.recent.map((artist) => 
             {return (
-                <div className="RecentRelease">
+                <div className="RecentRelease" key={`${artist.recent_artist}-01`}>
                     <a href={artist.recent_album_url} target="_blank" rel="noopener noreferrer">
                         <img className="RecentAlbum" src={artist.recent_album_art} alt={artist.recent_album}/>
                     </a>
