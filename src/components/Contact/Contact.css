@@ -1,9 +1,35 @@
-.Contact-info {
-    width: 80%;
+@media only screen and (max-width: 700px) {
+    .Contact-info {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .Contact-info p {
+        font-size: 18px;
+    }
+
+    .Contact-info h3 {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    
+    .Contact-info a {
+        color: white;
+        font-weight: bold;
+        text-decoration: underline;
+    }
 }
 
-.Contact-info a {
-    color: white;
-    font-weight: bold;
-    text-decoration: underline;
+@media only screen and (min-width: 701px) {
+    .Contact-info {
+        width: 80%;
+    }
+    
+    .Contact-info a {
+        color: white;
+        font-weight: bold;
+        text-decoration: underline;
+    }
 }
+
