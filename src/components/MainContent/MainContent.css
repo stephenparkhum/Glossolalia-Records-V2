@@ -55,5 +55,11 @@
     .MainNews {
         margin-top: 125px;
     }
+
+    .MainNews h1 {
+        text-align: center;
+        padding-top: 0;
+        margin-top: 15px;
+    }
 }
 
