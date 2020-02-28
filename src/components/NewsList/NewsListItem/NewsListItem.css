@@ -16,3 +16,23 @@
     padding-top: 10px;
     line-height: 1.7;
 }
+
+@media only screen and (max-width: 700px) {
+    .NewsListContent {
+        width: 90%;
+    }
+
+    .NewsListItem {
+        margin-bottom: initial;
+        width: 100%;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .NewsListContent {
+        padding-top: 8px;
+        line-height: 1.9;
+        padding-right: 0;
+        margin: 0 auto;
+    }
+}
