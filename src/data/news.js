@@ -1,5 +1,13 @@
 const NEWS = [
     {
+        headline: 'Preorder "Anti-Vaxxer" from Bacillus',
+        date: '02/28/2020',
+        paragraphs: [
+            'Available now for pre-order at the embed below: BACILLUS, "ANTI-VAXXER" Edition of 75; $12',
+        ],
+        content: 'Deathvoid unleashes its raw black metal on the “Disappear” tape. Edition of 25.'
+    },
+    {
         headline: 'Deathvoid and Joli cassettes Now Available!',
         date: '12/31/2019',
         content: 'Deathvoid unleashes its raw black metal on the “Disappear” tape. Edition of 25.'
