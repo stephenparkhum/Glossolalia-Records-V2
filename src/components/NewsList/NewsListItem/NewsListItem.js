@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown/with-html';
 import './NewsListItem.css';
 import NEWS from '../../../data/news';
 
