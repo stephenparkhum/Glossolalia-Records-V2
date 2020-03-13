@@ -1,5 +1,5 @@
 # Glossolalia Records 
-[2019 Version 1](http://glossolaliarecords.com)
+[Live Site](http://glossolaliarecords.com)
 
 ### Stack 
 - React
