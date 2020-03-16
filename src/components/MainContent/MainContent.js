@@ -18,8 +18,6 @@ const MainContent = (props) => {
                 <Switch>
                     <Route exact path="/">
                         <NewsListItem />
-                        <NewsListItem />
-                        <NewsListItem />
                     </Route>
                     <Route path="/artists">
                         <ArtistList />
