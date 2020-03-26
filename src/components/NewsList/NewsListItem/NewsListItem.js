@@ -4,6 +4,11 @@ import './NewsListItem.css';
 import NEWS from '../../../data/news';
 
 const NewsListItem = () => {
+    let iframeStyles = {
+        border: 0,
+        width: '350px',
+        height: '470px'
+    };
 
     return (
         <>
@@ -23,6 +28,7 @@ const NewsListItem = () => {
                             <br />
             
             </p>
+            <iframe title="Bacillus" style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=3551539458/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://glossolaliarecords.bandcamp.com/album/anti-vaxxer">Anti-Vaxxer by Bacillus</a></iframe>
         </div>
         <div className="NewsListItem">
             <h2>Flesh Cage / Willowbrook split cassette available now</h2>
@@ -36,13 +42,11 @@ const NewsListItem = () => {
                                 FLESH CAGE / WILLOWBROOK</a>
                             <br />
             </p>
-            <p className="NewsListContent">
-                Hailing from the east coast, Cowardice debuted forcefully in 2016 and has enraptured ears with their distinctive sludge via several significant 
-                releases in the intervening years. This most recent expulsion is the consequence of a long 
-                conspiracy with diffuse black metallers and Glossolalia alumni, Grst. 
-                The resulting block of music is a challengingly dour 40 minutes worthy of its state-spanning 
-                efforts.
-            </p>
+            <iframe title="FleshCage+Willowbrook" style={iframeStyles} 
+                                src="https://bandcamp.com/EmbeddedPlayer/album=1649621517/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                                seamless><a
+                                    href="http://glossolaliarecords.bandcamp.com/album/flesh-cage-willowbrook">Flesh
+                                    Cage / Willowbrook by Flesh Cage / Willowbrook</a></iframe>
         </div>
         <div className="NewsListItem">
             <h2>Stream two new titles from σοφος / Willowbrook and Rainwashed Sky</h2>
@@ -54,6 +58,10 @@ const NewsListItem = () => {
                                 PURCHASE σοφος / WILLOWBROOK</a>
                             <br />
             </p>
+            <iframe title="Willowbrook" style={iframeStyles}
+                                src="https://bandcamp.com/EmbeddedPlayer/album=1604055400/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                                seamless><a href="http://glossolaliarecords.bandcamp.com/album/willowbrook">σοφος /
+                                    Willowbrook by σοφος / Willowbrook</a></iframe>
             <p className="NewsListContent">
             "Dreamt Ascent" was recorded in autumn 2014 in Eugene, Oregon, in old lives, older by the
                             second, younger their memory. σοφος & KRP collaborate on keyboards and synths for RWS’s
@@ -62,6 +70,10 @@ const NewsListItem = () => {
                                 PURCHASE RAINWASHED SKY</a>
                             <br />
             </p>
+            <iframe title="DreamAscent" style={iframeStyles}
+                                src="https://bandcamp.com/EmbeddedPlayer/album=2955430228/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                                seamless><a href="http://glossolaliarecords.bandcamp.com/album/dreamt-ascent">Dreamt
+                                    Ascent by Rainwashed Sky</a></iframe>
         </div>
         <div className="NewsListItem">
             <h2>Deathvoid and Joli cassettes now available!</h2>
@@ -72,6 +84,12 @@ const NewsListItem = () => {
                                 DEATHVOID</a>
                             <br />
             </p>
+            <iframe title="Deathvoid" style={iframeStyles} 
+                                src="https://bandcamp.com/EmbeddedPlayer/album=4137876972/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                                seamless><a href="http://glossolaliarecords.bandcamp.com/album/disappear">Disappear by
+                                    Deathvoid
+                                </a>
+                            </iframe>
             <p className="NewsListContent">
             Joli pummels listeners with his trademark pensive wall noise on “Why Did You Stop Loving
                             Me?” Edition of 25.
@@ -80,6 +98,11 @@ const NewsListItem = () => {
                                 PURCHASE JOLI</a>
                             <br />
             </p>
+            <iframe title="Joli" style={iframeStyles}
+                                src="https://bandcamp.com/EmbeddedPlayer/album=1385953292/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                                seamless><a
+                                    href="http://glossolaliarecords.bandcamp.com/album/why-did-you-stop-loving-me">Why
+                                    Did You Stop Loving Me? by Joli</a></iframe>
         </div>
         <div className="NewsListItem">
             <h2>New cassettes from J.S.H. and Faggot Front out now</h2>
@@ -96,6 +119,11 @@ const NewsListItem = () => {
                                 / PURCHASE J.S.H.</a>
                             <br />
             </p>
+            <iframe title="JSH" style={iframeStyles}
+                                src="https://bandcamp.com/EmbeddedPlayer/album=1167007767/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                                seamless><a
+                                    href="http://glossolaliarecords.bandcamp.com/album/i-cut-out-my-tongue-so-i-wont-speak-the-truth">I
+                                    Cut Out My Tongue So I Won&#39;t Speak The Truth by J.S.H.</a></iframe>
             <p className="NewsListContent">
             Dom C. returns! Only those who have spent years mastering their craft can successfully weave
                             the minimal with the complex, and that’s exactly what Faggot Front accomplishes with the
@@ -107,6 +135,10 @@ const NewsListItem = () => {
                                 PURCHASE FAGGOT FRONT</a>
                             <br />
             </p>
+            <iframe title="Faggot Front" style={iframeStyles}
+                                src="https://bandcamp.com/EmbeddedPlayer/album=4032684177/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                                seamless><a href="http://glossolaliarecords.bandcamp.com/album/eyes-like-roadkill">Eyes
+                                    Like Roadkill by Faggot Front</a></iframe>
         </div>
         <div className="NewsListItem">
             <h2>Cowardice / Grst split cassette available now</h2>
@@ -129,6 +161,12 @@ const NewsListItem = () => {
                             is a challengingly
                             dour 40 minutes worthy of its state-spanning efforts.<br />
             </p>
+            <iframe title="GRST and Cowardice" style={iframeStyles}
+                                src="https://bandcamp.com/EmbeddedPlayer/album=735274379/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
+                                seamless class="mobile-hide"><a
+                                    href="http://glossolaliarecords.bandcamp.com/album/cowardice-grst">Cowardice / Grst
+                                    by Cowardice /
+                                    Grst</a></iframe>
         </div>
         </>
     )
