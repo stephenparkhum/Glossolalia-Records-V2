@@ -15,6 +15,11 @@ import ArtistIndividual from './components/ArtistIndividual/ArtistIndividual';
 import LeftSocial from './components/LeftSocial/LeftSocial';
 import ButtonMobileMenu from './components/BottomMobileMenu/BottomMobileMenu';
 
+// Google Analytics
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-65527149-2');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 class App extends Component {
   render() {
 
