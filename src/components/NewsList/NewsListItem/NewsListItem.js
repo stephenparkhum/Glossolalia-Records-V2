@@ -13,6 +13,35 @@ const NewsListItem = () => {
     return (
         <>
         <div className="NewsListItem">
+            <h2>Xenoglyph’s mind-altering debut out now</h2>
+            <p className="NewsListDate">04/17/2020</p>
+            <p className="NewsListContent">
+            Xenoglyph’s monumental debut cassette “Mytharc” is now available for streaming and purchase. <br /><br />Due to Covid-19’s grip on our already-throttled world, please be patient as we work to save time and ship units in batches of 10 to 15. 
+            </p>
+            <p className="NewsListContent">
+                <a href="https://glossolaliarecords.bandcamp.com/album/mytharc">STREAM / PURCHASE MYTHAR</a>
+            </p>
+        </div>
+        <div className="NewsListItem">
+            <h2>Decibel streams Xenoglyph’s “Mytharc” in its entirety</h2>
+            <p className="NewsListDate">04/15/2020</p>
+            <p className="NewsListContent">
+            Shawn Macomber via Decibel presents an introductory exploration of Xenoglyph’s “Mytharc” album via the glossolalia records Bandcamp. <br />Read the <a href="https://www.decibelmagazine.com/2020/04/15/full-album-stream-xenoglyph-mytharc/">Decibel Magazine Mytharc write-up</a>.
+            </p>
+            <p className="NewsListContent">
+            <a href="https://glossolaliarecords.bandcamp.com/album/mytharc">STREAM / PURCHASE MYTHAR</a>
+            </p>
+            <iframe title="Xenoglyph2" style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=135620156/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://glossolaliarecords.bandcamp.com/album/mytharc">Mytharc by Xenoglyph</a></iframe>
+        </div>
+        <div className="NewsListItem">
+            <h2> Xenoglyph’s “Mytharc” pre-order + title track stream</h2>
+            <p className="NewsListDate">03/19/2020</p>
+            <p className="NewsListContent">
+            You can now pre-order the debut full-length from the enigmatic duo Xenoglyph entitled “MYTHARC.” Listen to the advanced title track below. 
+            </p>
+            <iframe title="Xenoglyph" style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=135620156/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://glossolaliarecords.bandcamp.com/album/mytharc">Mytharc by Xenoglyph</a></iframe>
+        </div>
+        <div className="NewsListItem">
             <h2>Preorder "Anti-Vaxxer" from Bacillus</h2>
             <p className="NewsListDate">02/28/2020</p>
             <p className="NewsListContent">
