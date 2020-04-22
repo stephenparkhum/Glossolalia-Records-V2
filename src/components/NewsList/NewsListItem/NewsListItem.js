@@ -19,7 +19,7 @@ const NewsListItem = () => {
             Xenoglyph’s monumental debut cassette “Mytharc” is now available for streaming and purchase. <br /><br />Due to Covid-19’s grip on our already-throttled world, please be patient as we work to save time and ship units in batches of 10 to 15. 
             </p>
             <p className="NewsListContent">
-                <a href="https://glossolaliarecords.bandcamp.com/album/mytharc">STREAM / PURCHASE MYTHAR</a>
+                <a href="https://glossolaliarecords.bandcamp.com/album/mytharc">STREAM / PURCHASE MYTHARC</a>
             </p>
         </div>
         <div className="NewsListItem">
@@ -29,7 +29,7 @@ const NewsListItem = () => {
             Shawn Macomber via Decibel presents an introductory exploration of Xenoglyph’s “Mytharc” album via the glossolalia records Bandcamp. <br />Read the <a href="https://www.decibelmagazine.com/2020/04/15/full-album-stream-xenoglyph-mytharc/">Decibel Magazine Mytharc write-up</a>.
             </p>
             <p className="NewsListContent">
-            <a href="https://glossolaliarecords.bandcamp.com/album/mytharc">STREAM / PURCHASE MYTHAR</a>
+            <a href="https://glossolaliarecords.bandcamp.com/album/mytharc">STREAM / PURCHASE MYTHARC</a>
             </p>
             <iframe title="Xenoglyph2" style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=135620156/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://glossolaliarecords.bandcamp.com/album/mytharc">Mytharc by Xenoglyph</a></iframe>
         </div>
