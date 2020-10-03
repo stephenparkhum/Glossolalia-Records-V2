@@ -13,6 +13,43 @@ const NewsListItem = () => {
     return (
         <>
         <div className="NewsListItem">
+            <h2>Euthanasie Volontaire tape + CHEFKIRK x DVR collaboration</h2>
+            <p className="NewsListDate">06/05/2020</p>
+            <p className="NewsListContent">
+            We’re proud to announce a shredded, brutal new release from <a href="https://glossolaliarecords.bandcamp.com/album/grupo-elite">Euthanasie Volontaire</a> and the debut of <a href="https://glossolaliarecords.bandcamp.com/album/all-out-destruction">Giant Monsters</a>, a hulking collaborative project between CHEFKIRK (Juice Machine) and DVR (Blood Eagle).</p>
+            <br />
+                Euthanasie Volontaire is an edition of 20.
+                Giant Monsters is an edition of 25.<br />
+            <p className="listen-now">
+                <div className="listen-now-individual">
+                    LISTEN:<br />
+                    <iframe style={iframeStyles} title="all out destruction" src="https://bandcamp.com/EmbeddedPlayer/album=3608127396/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://glossolaliarecords.bandcamp.com/album/all-out-destruction">All Out Destruction by Giant Monsters</a></iframe>
+                </div>
+
+                <div className="listen-now-individual">
+                    LISTEN: <br />
+                    <iframe title="grupo elite" style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=833681319/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://glossolaliarecords.bandcamp.com/album/grupo-elite">Grupo Elite by Euthanasie Volontaire</a></iframe>
+                </div>
+            </p>
+        </div>
+        <div className="NewsListItem">
+            <h2>Unhinged rawness: new tapes from Hexenight & Moonglum</h2>
+            <p className="NewsListDate">06/19/2020</p>
+            <p className="NewsListContent">
+            Lofi blackened electronics, carnage of the beat: <a href="https://glossolaliarecords.bandcamp.com/album/hell-is-not-a-myth">Hexenight</a>. Dizzying tremolo wash, blown-out arctic blackness: <a href="https://glossolaliarecords.bandcamp.com/album/esoteric-litany">Moonglum</a>. Both tapes available in an edition of 25.</p>
+            <p className="listen-now">
+                <div className="listen-now-individual">
+                    LISTEN:<br />
+                    <iframe title="hellisnot" style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=785125548/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://glossolaliarecords.bandcamp.com/album/hell-is-not-a-myth">Hell is Not a Myth by Hexenight</a></iframe>
+                </div>
+
+                <div className="listen-now-individual">
+                    LISTEN: <br />
+                    <iframe  title="esoteric litany" style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=1384652722/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://glossolaliarecords.bandcamp.com/album/esoteric-litany">Esoteric Litany by Moonglum</a></iframe>
+                </div>
+            </p>
+        </div>
+        <div className="NewsListItem">
             <h2>Xenoglyph’s mind-altering debut out now</h2>
             <p className="NewsListDate">04/17/2020</p>
             <p className="NewsListContent">

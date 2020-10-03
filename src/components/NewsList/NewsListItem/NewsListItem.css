@@ -47,3 +47,13 @@
         font-size: 20px;
     }
 }
+
+.listen-now {
+    display: flex; 
+    flex-direction: row;
+    padding-top: 25px;
+}
+
+.listen-now-individual {
+    padding-right: 50px;
+}
