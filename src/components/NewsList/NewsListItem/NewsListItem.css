@@ -46,14 +46,34 @@
         padding-bottom: 25px;
         font-size: 20px;
     }
+
+
+
 }
 
 .listen-now {
     display: flex; 
     flex-direction: row;
-    padding-top: 25px;
+    align-items: flex-start;
+    text-align: center;
 }
 
 .listen-now-individual {
     padding-right: 50px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .listen-now {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .listen-now-individual iframe {
+        width: 250px !important; 
+    }
+
+    .listen-now-individual {
+        padding-right: 0px;
+    }
 }
