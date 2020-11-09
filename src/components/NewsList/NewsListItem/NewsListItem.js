@@ -13,6 +13,46 @@ const NewsListItem = () => {
     return (
         <>
         <div className="NewsListItem">
+            <h2>Doomed & Stoned premieres new Maestus EP</h2>
+            <p className="NewsListDate">11/09/2020</p>
+            <p className="NewsListContent">
+            <a href="https://glossolaliarecords.bandcamp.com/album/daybreaks-advent">Daybreak's Advent</a> is the first new material from Maestus since the PNW collective's second LP <a href="https://maestus.bandcamp.com/album/deliquesce">Deliquesce</a> was released by Italian curators <a href="http://www.code666.net/maestus-sign-with-code666/">Code666</a> in February of last year. It features photography by SP and boasts the band's first-ever tribute, a cover of My Dying Bride's classic "My Hope, The Destroyer." Additional violin and viola work by Andrea Morgan of Exulansis.
+            <br /><br />
+            <blockquote><em>
+            When you listen to the latest EP, ‘Daybreak’s Advent’ (2020), for example, you’re bearing witness to creation, not simply of a musical composition but of an entire reality built upon the foundation of sound. Starting with “Adamacy Feigned,” Maestus work methodically, to borrow an old Biblical stanza: “line upon line, precept upon precept, here a little and there a little.” With each well-appointed note, Maestus unfurls the cosmos in intricate strands of sound.<br /><br />
+            True to their name, the world that Maestus reveals to us is touched by melancholy. Melancholy is not a singularly dark concept, either. It can be (and sometimes is) quite beautiful and its mysteries will be experienced differently when met by different ears. To my perception, the opening minutes of Daybreak’s Advent perfectly conjure a crisp November’s dawn with a landscape filled with trees of deep red and gold dancing in the early morning breeze, the green grass (yes, it stays green in Oregon all year 'round, folks!) still damp with the morning dew. The winds of drama stir the leaves about and, as the sun further makes its presence known, a certain worshipful awe overtakes the mood, scored by majestic voices layered together for warmth.
+            </em></blockquote><br />
+            Doomed & Stoned has <a href="https://doomedandstoned.com/post/634332818690932736/maestus" target="_blank">premiered the 2-track EP in full</a>, wherein one can preorder the cassette version to be released this Friday. Billy Goate has this to say of the record:</p>
+            <br />
+            STREAM / PREORDER BELOW<br />
+            <p className="listen-now">
+                <div className="listen-now-individual">
+                    LISTEN: <br />
+                    <iframe title="daybreaks advent" style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=2278345818/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://glossolaliarecords.bandcamp.com/album/daybreaks-advent">Daybreak&#39;s Advent by Maestus</a></iframe>
+                </div>
+            </p>
+        </div>
+        <div className="NewsListItem">
+            <h2>New material from Eugene Critchley, Sloth, and Willowbrook</h2>
+            <p className="NewsListDate">11/06/2020</p>
+            <p className="NewsListContent">
+            NOW AVAILABLE:<br /><br />
+            GR is proud to present the latest <a href="https://glossolaliarecords.bandcamp.com/album/and-when-life-hurts-you-because-it-will" target="_blank">Eugene Critchley</a> album, “And When Life Hurts You, Because It Will” on white cassette, a masterclass in coarse minimalism. Cover collage by KRP. <a href="https://glossolaliarecords.bandcamp.com/album/sloth-willowbrook" target="_blank">Willowbrook joins with the mighty Sloth</a> for a split tape featuring new collage work by <a href="https://www.discogs.com/artist/4096761-SBTDOH" target="_blank">SBTDOH</a>. Ten minutes each of dynamic walls and feedback-driven barrages.</p>
+            <br />
+            Editions of 15<br />
+            <p className="listen-now">
+                <div className="listen-now-individual">
+                    LISTEN:<br />
+                    <iframe title="eugene album" style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=2055556995/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://glossolaliarecords.bandcamp.com/album/and-when-life-hurts-you-because-it-will">And When Life Hurts You, Because It Will by Eugene Critchley</a></iframe>
+                </div>
+
+                <div className="listen-now-individual">
+                    LISTEN: <br />
+                    <iframe title="sloth-willow" style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=3300872826/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://glossolaliarecords.bandcamp.com/album/sloth-willowbrook">Sloth / Willowbrook by Sloth / Willowbrook</a></iframe>
+                </div>
+            </p>
+        </div>
+        <div className="NewsListItem">
             <h2>Euthanasie Volontaire tape + CHEFKIRK x DVR collaboration</h2>
             <p className="NewsListDate">06/05/2020</p>
             <p className="NewsListContent">

@@ -27,7 +27,13 @@ a li {
 
 a {
     color: var(--black);
+    font-weight: bold;
     text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  
 }
 
 li:hover {
