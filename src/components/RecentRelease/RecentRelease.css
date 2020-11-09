@@ -7,6 +7,10 @@
         text-align: center;
     }
 
+    .RecentRelease {
+        padding: 10px;
+    }
+
     .RecentRelease a img {
         margin-top: 25px;
     }

@@ -153,22 +153,22 @@ const ARTISTS = [
 
 ARTISTS.recent = [
     {
-        recent_album: 'Anti​-​Vaxxer',
-        recent_artist: 'Bacillus',
-        recent_album_art: 'https://f4.bcbits.com/img/a0557265547_10.jpg',
-        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/anti-vaxxer'
+        recent_album: `Daybreak's Advent`,
+        recent_artist: 'Maestus',
+        recent_album_art: 'https://f4.bcbits.com/img/a3302373462_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/daybreaks-advent'
     },
     {
-        recent_album: 'Flesh Cage / Willowbrook',
-        recent_artist: 'Flesh Cage / Willowbrook',
-        recent_album_art: 'https://f4.bcbits.com/img/a2820328825_10.jpg',
-        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/flesh-cage-willowbrook'
+        recent_album: 'And When Life Hurts You, Because It Will',
+        recent_artist: 'Eugene Critchley',
+        recent_album_art: 'https://f4.bcbits.com/img/a0288242541_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/and-when-life-hurts-you-because-it-will'
     },
     {
-        recent_album: 'Dreamt Ascent',
-        recent_artist: 'Rainwashed Sky',
-        recent_album_art: 'https://f4.bcbits.com/img/a3084333223_10.jpg',
-        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/dreamt-ascent'
+        recent_album: 'Sloth / Willowbrook',
+        recent_artist: 'Sloth / Willowbrook',
+        recent_album_art: 'https://f4.bcbits.com/img/a1730980098_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/sloth-willowbrook'
     },
     
 ]
