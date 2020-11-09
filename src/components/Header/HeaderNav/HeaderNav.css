@@ -26,12 +26,12 @@ a li {
 }
 
 a {
-    color: white;
+    color: var(--black);
     text-decoration: none;
 }
 
 li:hover {
-    color: white;
+    color: var(--black);
     font-weight: bold;
     cursor: pointer;
 }
