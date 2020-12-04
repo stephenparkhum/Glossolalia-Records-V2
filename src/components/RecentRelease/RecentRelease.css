@@ -8,6 +8,7 @@
     }
 
     .RecentRelease {
+        width: 80%;
         padding: 10px;
     }
 
@@ -41,7 +42,6 @@
     .RecentArtist {
         color: grey;
         padding: 0;
-        margin-bottom: 35px;
         margin-top: 0;
     }
     

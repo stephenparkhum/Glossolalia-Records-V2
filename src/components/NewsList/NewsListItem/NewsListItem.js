@@ -13,6 +13,30 @@ const NewsListItem = () => {
     return (
         <>
         <div className="NewsListItem">
+            <h2>Releases from SGFF label boss and Henry Duck out now</h2>
+            <p className="NewsListDate">12/04/2020</p>
+            <p className="NewsListContent">
+            Grating, churning, filthy new tapes from both Mallard Theory and Systematic Elimination available now at our Bandcamp.
+            <br /><br />
+            A Duck brings the murky weirdness with dank unreleased material recorded between 2015 and 2019, personally selected by KRP. Next up is Systematic Elimination, harsh noise from SGFF label boss Winter Rose, exploring the wretchedness of trench warfare.
+            <br /><br />
+            Each in an edition of 20.
+            </p>
+            <br />
+            STREAM / PREORDER BELOW<br />
+            <p className="listen-now">
+                <div className="listen-now-individual">
+                LISTEN: <br />
+                <iframe title="algi duck waters" style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=2526073556/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://glossolaliarecords.bandcamp.com/album/swamp-lake-pond-algi-duck-waters">Swamp Lake Pond / Algi Duck Waters by Mallard Theory</a></iframe>
+                </div>
+                <div className="listen-now-individual">
+                    LISTEN: <br />
+                    <iframe title="no mans land" style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=3948944768/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://glossolaliarecords.bandcamp.com/album/no-mans-land">No Man&#39;s Land by Systematic Elimination</a></iframe>
+                </div>
+            </p>
+            
+        </div>
+        <div className="NewsListItem">
             <h2>Doomed & Stoned premieres new Maestus EP</h2>
             <p className="NewsListDate">11/09/2020</p>
             <p className="NewsListContent">
