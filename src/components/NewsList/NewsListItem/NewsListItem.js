@@ -13,6 +13,26 @@ const NewsListItem = () => {
     return (
         <>
         <div className="NewsListItem">
+            <h2>New tape from SBTDOH now available</h2>
+            <p className="NewsListDate">12/31/2020</p>
+            <p className="NewsListContent">
+            From the project's early beginnings as a builder of impenetrable walls to the manic, dissolving frenzy of its contemporary harsh noise output, SBTDOH has carved a cryptic, unwavering path of singularity through the underground. The unique, encompassing nature of his perspective is reflected just as much in the curation of Shrouded Recordings, home to many of 2020’s best tapes.
+            <br /><br />
+            GR is proud to present the newest full-length from SBDTOH, "Space: While Always in Childhood is Foundational Without Definition" in an edition of 22.
+            <br /><br />
+            Fuck bloated editions and fuck artificial scarcity and fuck products.
+            Labels-that-are-not-labels unite.
+            </p>
+            <br />
+            STREAM / PURCHASE BELOW<br />
+            <p className="listen-now">
+                <div className="listen-now-individual">
+                LISTEN: <br />
+                <iframe style={iframeStyles} title="SBDTOH" src="https://bandcamp.com/EmbeddedPlayer/album=673549749/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://glossolaliarecords.bandcamp.com/album/space-while-always-in-childhood-is-foundational-without-definition">Space: While Always in Childhood is Foundational Without Definition by SBTDOH</a></iframe>
+                </div>
+            </p>
+        </div>
+        <div className="NewsListItem">
             <h2>Releases from SGFF label boss and Henry Duck out now</h2>
             <p className="NewsListDate">12/04/2020</p>
             <p className="NewsListContent">
@@ -23,7 +43,7 @@ const NewsListItem = () => {
             Each in an edition of 20.
             </p>
             <br />
-            STREAM / PREORDER BELOW<br />
+            STREAM / PURCHASE BELOW<br />
             <p className="listen-now">
                 <div className="listen-now-individual">
                 LISTEN: <br />
@@ -34,7 +54,6 @@ const NewsListItem = () => {
                     <iframe title="no mans land" style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=3948944768/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://glossolaliarecords.bandcamp.com/album/no-mans-land">No Man&#39;s Land by Systematic Elimination</a></iframe>
                 </div>
             </p>
-            
         </div>
         <div className="NewsListItem">
             <h2>Doomed & Stoned premieres new Maestus EP</h2>
@@ -48,7 +67,7 @@ const NewsListItem = () => {
             </em></blockquote><br />
             Doomed & Stoned has <a href="https://doomedandstoned.com/post/634332818690932736/maestus" target="_blank">premiered the 2-track EP in full</a>, wherein one can preorder the cassette version to be released this Friday. Billy Goate has this to say of the record:</p>
             <br />
-            STREAM / PREORDER BELOW<br />
+            STREAM / PURCHASE BELOW<br />
             <p className="listen-now">
                 <div className="listen-now-individual">
                     LISTEN: <br />
