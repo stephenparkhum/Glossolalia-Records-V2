@@ -1,7 +1,5 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown/with-html';
 import './NewsListItem.css';
-import NEWS from '../../../data/news';
 
 const NewsListItem = () => {
     let iframeStyles = {
@@ -65,7 +63,7 @@ const NewsListItem = () => {
             When you listen to the latest EP, ‘Daybreak’s Advent’ (2020), for example, you’re bearing witness to creation, not simply of a musical composition but of an entire reality built upon the foundation of sound. Starting with “Adamacy Feigned,” Maestus work methodically, to borrow an old Biblical stanza: “line upon line, precept upon precept, here a little and there a little.” With each well-appointed note, Maestus unfurls the cosmos in intricate strands of sound.<br /><br />
             True to their name, the world that Maestus reveals to us is touched by melancholy. Melancholy is not a singularly dark concept, either. It can be (and sometimes is) quite beautiful and its mysteries will be experienced differently when met by different ears. To my perception, the opening minutes of Daybreak’s Advent perfectly conjure a crisp November’s dawn with a landscape filled with trees of deep red and gold dancing in the early morning breeze, the green grass (yes, it stays green in Oregon all year 'round, folks!) still damp with the morning dew. The winds of drama stir the leaves about and, as the sun further makes its presence known, a certain worshipful awe overtakes the mood, scored by majestic voices layered together for warmth.
             </em></blockquote><br />
-            Doomed & Stoned has <a href="https://doomedandstoned.com/post/634332818690932736/maestus" target="_blank">premiered the 2-track EP in full</a>, wherein one can preorder the cassette version to be released this Friday. Billy Goate has this to say of the record:</p>
+            Doomed & Stoned has <a href="https://doomedandstoned.com/post/634332818690932736/maestus" target="_blank" rel="noopener noreferrer">premiered the 2-track EP in full</a>, wherein one can preorder the cassette version to be released this Friday. Billy Goate has this to say of the record:</p>
             <br />
             STREAM / PURCHASE BELOW<br />
             <p className="listen-now">
@@ -80,7 +78,7 @@ const NewsListItem = () => {
             <p className="NewsListDate">11/06/2020</p>
             <p className="NewsListContent">
             NOW AVAILABLE:<br /><br />
-            GR is proud to present the latest <a href="https://glossolaliarecords.bandcamp.com/album/and-when-life-hurts-you-because-it-will" target="_blank">Eugene Critchley</a> album, “And When Life Hurts You, Because It Will” on white cassette, a masterclass in coarse minimalism. Cover collage by KRP. <a href="https://glossolaliarecords.bandcamp.com/album/sloth-willowbrook" target="_blank">Willowbrook joins with the mighty Sloth</a> for a split tape featuring new collage work by <a href="https://www.discogs.com/artist/4096761-SBTDOH" target="_blank">SBTDOH</a>. Ten minutes each of dynamic walls and feedback-driven barrages.</p>
+            GR is proud to present the latest <a href="https://glossolaliarecords.bandcamp.com/album/and-when-life-hurts-you-because-it-will" target="_blank" rel="noopener noreferrer">Eugene Critchley</a> album, “And When Life Hurts You, Because It Will” on white cassette, a masterclass in coarse minimalism. Cover collage by KRP. <a href="https://glossolaliarecords.bandcamp.com/album/sloth-willowbrook" target="_blank" rel="noopener noreferrer">Willowbrook joins with the mighty Sloth</a> for a split tape featuring new collage work by <a href="https://www.discogs.com/artist/4096761-SBTDOH" target="_blank" rel="noopener noreferrer">SBTDOH</a>. Ten minutes each of dynamic walls and feedback-driven barrages.</p>
             <br />
             Editions of 15<br />
             <p className="listen-now">
@@ -298,15 +296,15 @@ const NewsListItem = () => {
                             available digitally and on
                             cassette May 1, 2019. The is available for streaming and ordering <a
                                 href="https://glossolaliarecords.bandcamp.com/album/cowardice-grst"
-                                target="_blank">HERE</a>.
+                                target="_blank" rel="noopener noreferrer">HERE</a>.
                             <br /><br />
                             Hailing from the east coast, <a href="https://cowardicedoom.bandcamp.com/"
-                                target="_blank">Cowardice</a> debuted forcefully in 2016 and has enraptured ears with
+                                target="_blank" rel="noopener noreferrer">Cowardice</a> debuted forcefully in 2016 and has enraptured ears with
                             their distinctive sludge
                             via several significant releases in the intervening years. This most recent expulsion is the
                             consequence of a long
                             conspiracy with diffuse black metallers and Glossolalia alumni, <a
-                                href="https://grst.bandcamp.com/" target="_blank">Grst</a>. The resulting block of music
+                                href="https://grst.bandcamp.com/" target="_blank" rel="noopener noreferrer">Grst</a>. The resulting block of music
                             is a challengingly
                             dour 40 minutes worthy of its state-spanning efforts.<br />
             </p>

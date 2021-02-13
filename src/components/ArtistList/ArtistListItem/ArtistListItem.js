@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import './ArtistListItem.css';
 
 const ArtistListItem = ({artist}) => {
@@ -12,7 +11,7 @@ const ArtistListItem = ({artist}) => {
 
     return (
         <div className="ArtistListEach">
-            <a href={`${adjustBandNameForRoute(artist.band_url)}`} target="_blank">
+            <a href={`${adjustBandNameForRoute(artist.band_url)}`} target="_blank" rel="noopener noreferrer">
                 <img className="ArtistImgDisplay" src={artist.albums[0].cover_art} alt={artist.albums[0].title}/>
             </a>
             <h4>{artist.name}</h4>

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './ArtistIndividual.css';
 
 import ARTISTS from '../../data/artists';

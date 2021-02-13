@@ -3,7 +3,6 @@ import {
   NavLink
 } from "react-router-dom";
 import './HeaderNav.css';
-import { slide as Menu } from 'react-burger-menu';
 
 function HeaderNav() {
   return (

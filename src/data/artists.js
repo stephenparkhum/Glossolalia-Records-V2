@@ -153,22 +153,22 @@ const ARTISTS = [
 
 ARTISTS.recent = [
     {
-        recent_album: `Daybreak's Advent`,
-        recent_artist: 'Maestus',
-        recent_album_art: 'https://f4.bcbits.com/img/a3302373462_10.jpg',
-        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/daybreaks-advent'
+        recent_album: `Space: While Always in Childhood is Foundational Without Definition`,
+        recent_artist: 'SBTDOH',
+        recent_album_art: 'https://f4.bcbits.com/img/a3037962350_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/space-while-always-in-childhood-is-foundational-without-definition'
     },
     {
-        recent_album: 'And When Life Hurts You, Because It Will',
-        recent_artist: 'Eugene Critchley',
-        recent_album_art: 'https://f4.bcbits.com/img/a0288242541_10.jpg',
-        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/and-when-life-hurts-you-because-it-will'
+        recent_album: "No Man's Land",
+        recent_artist: 'Systematic Elimination',
+        recent_album_art: 'https://f4.bcbits.com/img/a1824221415_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/no-mans-land'
     },
     {
-        recent_album: 'Sloth / Willowbrook',
-        recent_artist: 'Sloth / Willowbrook',
-        recent_album_art: 'https://f4.bcbits.com/img/a1730980098_10.jpg',
-        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/sloth-willowbrook'
+        recent_album: 'Swamp Lake Pond / Algi Duck Waters',
+        recent_artist: 'Mallard Theory',
+        recent_album_art: 'https://f4.bcbits.com/img/a3915664145_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/swamp-lake-pond-algi-duck-waters'
     },
     
 ]
