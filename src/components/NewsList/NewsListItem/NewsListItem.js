@@ -16,7 +16,7 @@ const NewsListItem = () => {
             <p className="NewsListContent">
             GR is proud to present the newest LP from noisemetal collective Ehnahre, a collaboration with German experimental artist Hellmut Neidhardt under his N alias. The title of this record is “Jakob” and it has been pressed in an edition of 100 on black 140g vinyl. 
             <br /><br />
-            Listen to a passage from the track “Regions of a Great Heresy” on Instagram.
+            <a href="https://www.instagram.com/p/CLUggO-Jg7V/" target="_blank" rel="noopener noreferrer">Listen to a passage</a> from the track “Regions of a Great Heresy” on Instagram.
             <br /><br />
             No tracks available during pre-order period.
             </p>
