@@ -153,6 +153,12 @@ const ARTISTS = [
 
 ARTISTS.recent = [
     {
+        recent_album: `Jacob`,
+        recent_artist: 'N + Ehnahre',
+        recent_album_art: 'https://f4.bcbits.com/img/a1501494402_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/jacob'
+    },
+    {
         recent_album: `Space: While Always in Childhood is Foundational Without Definition`,
         recent_artist: 'SBTDOH',
         recent_album_art: 'https://f4.bcbits.com/img/a3037962350_10.jpg',
@@ -163,13 +169,7 @@ ARTISTS.recent = [
         recent_artist: 'Systematic Elimination',
         recent_album_art: 'https://f4.bcbits.com/img/a1824221415_10.jpg',
         recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/no-mans-land'
-    },
-    {
-        recent_album: 'Swamp Lake Pond / Algi Duck Waters',
-        recent_artist: 'Mallard Theory',
-        recent_album_art: 'https://f4.bcbits.com/img/a3915664145_10.jpg',
-        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/swamp-lake-pond-algi-duck-waters'
-    },
+    }
     
 ]
 

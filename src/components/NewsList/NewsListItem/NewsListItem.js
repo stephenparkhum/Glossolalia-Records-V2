@@ -11,6 +11,18 @@ const NewsListItem = () => {
     return (
         <>
         <div className="NewsListItem">
+            <h2>Jacob streaming in full on Invisible Oranges + LP out now</h2>
+            <p className="NewsListDate">3/05/2021</p>
+            <p className="NewsListContent">
+            The tremendous N + Ehnahre collaborative LP “Jacob” is out now for this Bandcamp Friday with fewer than 25 copies remaining from us. To commemorate the release, Invisible Oranges <a href="https://www.invisibleoranges.com/n-ehnahre-stream-interview/">interviewed Ehnahre’s Ryan McGuire</a> about the record’s process, experimental music, and more. Read this excerpt from the write-up by Jon Rosenthal then stream/purchase the record below:
+            </p>
+            <p className="NewsListContent">
+            "Bringing German experimental artist Hellmut Neidhardt into the fold under his N moniker, the N + Ehnahre ensemble's Jacob album crafts metal with a distinctly Modern flair. Punctuated by extensive bouts of free-improvisation, N and Ehnahre play the tension-and-release game, building as much discord and discomfort as possible before finally unleashing all their potential energy as mammoth, clattering, doomed metal."
+            <br /><br />
+            <iframe style={iframeStyles} title="Jacob" src="https://bandcamp.com/EmbeddedPlayer/album=3064770367/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://glossolaliarecords.bandcamp.com/album/jacob">Jacob by N + Ehnahre</a></iframe>
+            </p>
+        </div>
+        <div className="NewsListItem">
             <h2>N + Ehnahre collab LP available for pre-order</h2>
             <p className="NewsListDate">2/15/2021</p>
             <p className="NewsListContent">
