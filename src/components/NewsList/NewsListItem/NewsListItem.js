@@ -26,13 +26,13 @@ const NewsListItem = () => {
             <h2>N + Ehnahre collab LP available for pre-order</h2>
             <p className="NewsListDate">2/15/2021</p>
             <p className="NewsListContent">
-            GR is proud to present the newest LP from noisemetal collective Ehnahre, a collaboration with German experimental artist Hellmut Neidhardt under his N alias. The title of this record is “Jakob” and it has been pressed in an edition of 100 on black 140g vinyl. 
+            GR is proud to present the newest LP from noisemetal collective Ehnahre, a collaboration with German experimental artist Hellmut Neidhardt under his N alias. The title of this record is “Jacob” and it has been pressed in an edition of 100 on black 140g vinyl. 
             <br /><br />
             <a href="https://www.instagram.com/p/CLUggO-Jg7V/" target="_blank" rel="noopener noreferrer">Listen to a passage</a> from the track “Regions of a Great Heresy” on Instagram.
             <br /><br />
             No tracks available during pre-order period.
             </p>
-            <a href="https://glossolaliarecords.bandcamp.com/album/jakob" target="_blank" rel="noopener noreferrer">PRE-ORDER JAKOB HERE</a>
+            <a href="https://glossolaliarecords.bandcamp.com/album/jakob" target="_blank" rel="noopener noreferrer">PRE-ORDER JACOB HERE</a>
         </div>
         <div className="NewsListItem">
             <h2>New tape from SBTDOH now available</h2>
