@@ -11,6 +11,33 @@ const NewsListItem = () => {
     return (
         <>
         <div className="NewsListItem">
+            <h2>New tapes from Menophilia, Lapsed Baptist, Coumadin</h2>
+            <p className="NewsListDate">5/07/2021</p>
+            <p className="NewsListContent">
+            Three new tapes are now available, each in an edition of 25. Menophilia presents “Butchered by Noise,” 3 longform harsh noise reworks of classic Floridian death metal. HNW luminary Lapsed Baptist offers up “The Fortune Sellers,” an exploration of astrology’s origins. American minimal power electronics project Coumadin unleashes clinical criticism of for-profit care on “Metabolics in Trust.”
+            </p>
+            <p className="NewsListContent">
+            <br />
+            STREAM / PURCHASE BELOW<br />
+            <p className="listen-now">
+                <div className="listen-now-individual">
+                LISTEN: <br />
+                <iframe style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=1923406596/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" title="menophilia" seamless><a href="https://glossolaliarecords.bandcamp.com/album/butchered-by-noise">Butchered by Noise by Menophilia</a></iframe>
+                </div>
+                <div className="listen-now-individual">
+                    LISTEN: <br />
+                    <iframe style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=857755232/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" title="lapsed baptist" seamless><a href="https://glossolaliarecords.bandcamp.com/album/the-fortune-sellers">The Fortune Sellers by Lapsed Baptist</a></iframe>
+                </div>
+            </p>
+            <p className="listen-now">
+                <div className="listen-now-individual">
+                LISTEN: <br />
+                <iframe style={iframeStyles} src="https://bandcamp.com/EmbeddedPlayer/album=2553288512/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" title="coumadin" seamless><a href="https://glossolaliarecords.bandcamp.com/album/metabolics-in-trust">Metabolics in Trust by Coumadin</a></iframe>
+                </div>
+            </p>
+            </p>
+        </div>
+        <div className="NewsListItem">
             <h2>Jacob streaming in full on Invisible Oranges + LP out now</h2>
             <p className="NewsListDate">3/05/2021</p>
             <p className="NewsListContent">
