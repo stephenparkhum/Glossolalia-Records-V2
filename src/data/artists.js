@@ -153,22 +153,22 @@ const ARTISTS = [
 
 ARTISTS.recent = [
     {
-        recent_album: `Jacob`,
-        recent_artist: 'N + Ehnahre',
-        recent_album_art: 'https://f4.bcbits.com/img/a1501494402_10.jpg',
-        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/jacob'
+        recent_album: `Butchered by Noise`,
+        recent_artist: 'Menophilia',
+        recent_album_art: 'https://f4.bcbits.com/img/a3805458070_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/butchered-by-noise?from=embed'
     },
     {
-        recent_album: `Space: While Always in Childhood is Foundational Without Definition`,
-        recent_artist: 'SBTDOH',
-        recent_album_art: 'https://f4.bcbits.com/img/a3037962350_10.jpg',
-        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/space-while-always-in-childhood-is-foundational-without-definition'
+        recent_album: `The Fortune Sellers`,
+        recent_artist: 'Lapsed Baptist',
+        recent_album_art: 'https://f4.bcbits.com/img/a0543142043_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/the-fortune-sellers?from=embed'
     },
     {
-        recent_album: "No Man's Land",
-        recent_artist: 'Systematic Elimination',
-        recent_album_art: 'https://f4.bcbits.com/img/a1824221415_10.jpg',
-        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/no-mans-land'
+        recent_album: "Metabolics in Trust",
+        recent_artist: 'Coumadin',
+        recent_album_art: 'https://f4.bcbits.com/img/a0796228916_10.jpg',
+        recent_album_url: 'https://glossolaliarecords.bandcamp.com/album/metabolics-in-trust'
     }
     
 ]
