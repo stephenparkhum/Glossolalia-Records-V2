@@ -11,6 +11,35 @@ const NewsListItem = () => {
   return (
     <>
       <div className="NewsListItem">
+        <h2>Juice Machine x Willowbrook collaboration out now</h2>
+        <p className="NewsListDate">04/01/2022</p>
+        <p className="NewsListContent">
+          Recorded in Spring 2019, “Juicebrook” is 40 minutes of skittering
+          harsh noise, replete with feedback destruction and tape loops and
+          typified by delayed gratification. Edition of 25.
+        </p>
+        <p className="NewsListContent">
+          <br />
+          STREAM / PURCHASE BELOW
+          <br />
+          <p className="listen-now">
+            <div className="listen-now-individual">
+              LISTEN: <br />
+              <iframe
+                style={iframeStyles}
+                src="https://bandcamp.com/EmbeddedPlayer/album=277871534/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                seamless
+                title="juice machine willowbrook"
+              >
+                <a href="https://glossolaliarecords.bandcamp.com/album/juicebrook">
+                  Juicebrook by Juice Machine x Willowbrook
+                </a>
+              </iframe>
+            </div>
+          </p>
+        </p>
+      </div>
+      <div className="NewsListItem">
         <h2>New cassettes available now</h2>
         <p className="NewsListDate">03/04/2022</p>
         <p className="NewsListContent">
