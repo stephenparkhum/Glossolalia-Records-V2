@@ -1,22 +1,39 @@
-import React from 'react';
-import './ArtistListItem.css';
+import PropTypes from "prop-types";
+import React from "react";
+import "./ArtistListItem.css";
 
-const ArtistListItem = ({artist}) => {
-    const adjustBandNameForRoute = (name) => {
-        name = name.toLowerCase();
-        let bandRoute = name.split(" ");
-        let finalBandRoute = bandRoute.join("-");
-        return finalBandRoute;
-    };
+const ArtistListItem = ({ artist }) => {
+	const adjustBandNameForRoute = name => {
+		name = name.toLowerCase();
+		let bandRoute = name.split(" ");
+		let finalBandRoute = bandRoute.join("-");
+		return finalBandRoute;
+	};
 
-    return (
-        <div className="ArtistListEach">
-            <a href={`${adjustBandNameForRoute(artist.band_url)}`} target="_blank" rel="noopener noreferrer">
-                <img className="ArtistImgDisplay" src={artist.albums[0].cover_art} alt={artist.albums[0].title}/>
-            </a>
-            <h4>{artist.name}</h4>
-        </div>
-    )
+	return (
+		<div className="ArtistListEach">
+			<a
+				href={`${adjustBandNameForRoute(artist.band_url)}`}
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<img
+					className="ArtistImgDisplay"
+					src={artist.albums[0].cover_art}
+					alt={artist.albums[0].title}
+				/>
+			</a>
+			<h4>{artist.name}</h4>
+		</div>
+	);
+};
+
+ArtistListItem.propTypes = {
+	artist: {
+		band_url: PropTypes.string,
+		name: PropTypes.string,
+		albums: PropTypes.array,
+	},
 };
 
 export default ArtistListItem;
