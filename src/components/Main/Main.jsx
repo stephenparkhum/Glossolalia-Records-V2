@@ -4,10 +4,10 @@ import "./Main.css";
 import { Switch } from "react-router-dom";
 import MainContent from "../MainContent/MainContent";
 
-const Main = ({ title, artists }) => {
+const Main = ({ title, artists, albums }) => {
 	return (
 		<Switch>
-			<MainContent artists={artists} title={title} />
+			<MainContent albums={albums} artists={artists} title={title} />
 		</Switch>
 	);
 };
@@ -15,6 +15,7 @@ const Main = ({ title, artists }) => {
 Main.propTypes = {
 	title: PropTypes.string,
 	artists: PropTypes.array,
+	albums: PropTypes.array,
 };
 
 export default Main;

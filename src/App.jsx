@@ -18,16 +18,19 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 let PROJECT_ID = "wbp0yjss";
 let DATASET = "production";
 
-let QUERY = encodeURIComponent("*[_type == 'band']");
-
-// Compose the URL for your project's endpoint and add the query
-let URL = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
-
 const App = () => {
 	const [artists, setArtists] = useState([]);
+	const [albums, setAlbums] = useState([]);
+
+	const getQueryType = type => encodeURIComponent(`*[_type == '${type}']`);
+	const generateURL = type => {
+		return `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${getQueryType(
+			type,
+		)}`;
+	};
 
 	useEffect(() => {
-		fetch(URL)
+		fetch(generateURL("band"))
 			.then(res => res.json())
 			.then(({ result }) => {
 				if (result.length > 0) {
@@ -38,19 +41,20 @@ const App = () => {
 				setArtists(artists);
 			})
 			.catch(err => console.error(err));
-	}, []);
 
-	// Test comment for pre-commit hook
-
-	// useEffect(() => {
-	// 	artistsRef.on("value", snapshot => {
-	// 		let allArtists = [];
-	// 		snapshot.forEach(snap => {
-	// 			allArtists.push(snap.val());
-	// 		});
-	// 		setArtists(allArtists);
-	// 	});
-	// }, []);
+		fetch(generateURL("album"))
+			.then(res => res.json())
+			.then(({ result }) => {
+				if (result.length > 0) {
+					return result;
+				}
+			})
+			.then(albums => {
+				console.log(albums);
+				setAlbums(albums);
+			})
+			.catch(err => console.error(err));
+	}, [URL]);
 
 	return (
 		<Router>
@@ -61,7 +65,7 @@ const App = () => {
 						<Main title="NEWS" />
 					</Route>
 					<Route exact path="/artists">
-						<Main artists={artists} title="ARTISTS" />
+						<Main artists={artists} albums={albums} title="ARTISTS" />
 					</Route>
 					{/* <Route
 						path="/artists/:artist"
