@@ -21,6 +21,7 @@ let DATASET = "production";
 const App = () => {
 	const [artists, setArtists] = useState([]);
 	const [albums, setAlbums] = useState([]);
+	// const [siteData, setSiteData] = useState([]);
 
 	const getQueryType = type => encodeURIComponent(`*[_type == '${type}']`);
 	const generateURL = type => {
@@ -50,10 +51,21 @@ const App = () => {
 				}
 			})
 			.then(albums => {
-				console.log(albums);
 				setAlbums(albums);
 			})
 			.catch(err => console.error(err));
+
+		// fetch(generateURL("site"))
+		// 	.then(res => res.json())
+		// 	.then(({ result }) => {
+		// 		if (result.length > 0) {
+		// 			return result;
+		// 		}
+		// 	})
+		// 	.then(siteData => {
+		// 		setSiteData(siteData);
+		// 	})
+		// 	.catch(err => console.error(err));
 	}, [URL]);
 
 	return (
