@@ -3,8 +3,6 @@ import React from "react";
 import "./ArtistListItem.css";
 
 const ArtistListItem = ({ artist }) => {
-	console.log(artist);
-
 	// Maybe use later
 	// const adjustBandNameForRoute = name => {
 	// 	name = name.toLowerCase();

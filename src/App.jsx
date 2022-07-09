@@ -12,6 +12,7 @@ import ButtonMobileMenu from "./components/BottomMobileMenu/BottomMobileMenu";
 
 // Google Analytics
 import ReactGA from "react-ga";
+import { useCallback } from "react";
 ReactGA.initialize("UA-65527149-2");
 ReactGA.pageview(window.location.pathname + window.location.search);
 
@@ -24,11 +25,11 @@ const App = () => {
 	// const [siteData, setSiteData] = useState([]);
 
 	const getQueryType = type => encodeURIComponent(`*[_type == '${type}']`);
-	const generateURL = type => {
+	const generateURL = useCallback(type => {
 		return `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${getQueryType(
 			type,
 		)}`;
-	};
+	}, []);
 
 	useEffect(() => {
 		fetch(generateURL("band"))
@@ -66,7 +67,7 @@ const App = () => {
 		// 		setSiteData(siteData);
 		// 	})
 		// 	.catch(err => console.error(err));
-	}, [URL]);
+	}, [generateURL]);
 
 	return (
 		<Router>

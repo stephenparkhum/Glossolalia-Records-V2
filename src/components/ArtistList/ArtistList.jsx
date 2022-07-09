@@ -5,13 +5,13 @@ import "./ArtistList.css";
 
 const ArtistList = ({ artists }) => {
 	const artistListDisplay = artists.map(artist => {
-		if (artist.show) {
-			return (
+		return (
+			artist.show && (
 				<div key={artist}>
 					<ArtistListItem artist={artist} />
 				</div>
-			);
-		}
+			)
+		);
 	});
 
 	return <div className="ArtistListMain">{artistListDisplay}</div>;
