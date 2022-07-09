@@ -4,11 +4,15 @@ import ArtistListItem from "./ArtistListItem/ArtistListItem";
 import "./ArtistList.css";
 
 const ArtistList = ({ artists }) => {
-	const artistListDisplay = artists.map(artist => (
-		<div key={artist}>
-			<ArtistListItem artist={artist} />
-		</div>
-	));
+	const artistListDisplay = artists.map(artist => {
+		if (artist.show) {
+			return (
+				<div key={artist}>
+					<ArtistListItem artist={artist} />
+				</div>
+			);
+		}
+	});
 
 	return <div className="ArtistListMain">{artistListDisplay}</div>;
 };
