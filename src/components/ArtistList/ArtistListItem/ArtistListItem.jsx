@@ -3,27 +3,26 @@ import React from "react";
 import "./ArtistListItem.css";
 
 const ArtistListItem = ({ artist }) => {
-	const adjustBandNameForRoute = name => {
-		name = name.toLowerCase();
-		let bandRoute = name.split(" ");
-		let finalBandRoute = bandRoute.join("-");
-		return finalBandRoute;
-	};
+	console.log(artist);
+
+	// Maybe use later
+	// const adjustBandNameForRoute = name => {
+	// 	name = name.toLowerCase();
+	// 	let bandRoute = name.split(" ");
+	// 	let finalBandRoute = bandRoute.join("-");
+	// 	return finalBandRoute;
+	// };
 
 	return (
 		<div className="ArtistListEach">
-			<a
-				href={`${adjustBandNameForRoute(artist.band_url)}`}
-				target="_blank"
-				rel="noopener noreferrer"
-			>
+			<a href={artist.bandcamp} target="_blank" rel="noopener noreferrer">
 				<img
 					className="ArtistImgDisplay"
-					src={artist.albums[0].cover_art}
-					alt={artist.albums[0].title}
+					src={artist.bandPhoto}
+					alt={artist.bandName}
 				/>
 			</a>
-			<h4>{artist.name}</h4>
+			<h4>{artist.bandName}</h4>
 		</div>
 	);
 };
