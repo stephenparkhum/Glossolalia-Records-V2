@@ -1,31 +1,30 @@
 :root {
-  --white-new: var(--black);
-  --black: #0F0F0F;
-  --white: #fff;
-  --grey: #383838;
+	--white-new: var(--black);
+	--black: #0f0f0f;
+	--white: #fff;
+	--grey: #383838;
 }
 
 html,
 body {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 @font-face {
-  font-family: "mainFont";
-  src: url('./data/trado.ttf');
-  }
+	font-family: "mainFont";
+	src: url("./data/trado.ttf");
+}
 
 body {
-  font-family: 'mainFont', Arial, Helvetica, sans-serif;
-  margin: 25px 50px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: var(--white);
-  color: var(--white-new);
-
+	font-family: "mainFont", Arial, Helvetica, sans-serif;
+	margin: 25px 50px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: var(--white);
+	color: var(--white-new);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
