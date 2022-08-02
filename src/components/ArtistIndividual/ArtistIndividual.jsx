@@ -13,12 +13,23 @@ import {
 	faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
+const DisplaySocials = () => (
+	<div className="ArtistFooterSocial">
+		<h2>Social</h2>
+		<div className="SocialIcons">
+			<FontAwesomeIcon icon={faBandcamp} size="lg" />
+			<FontAwesomeIcon icon={faInstagram} size="lg" />
+			<FontAwesomeIcon icon={faFacebook} size="lg" />
+			<FontAwesomeIcon icon={faYoutube} size="lg" />
+		</div>
+	</div>
+);
+
 const ArtistIndividual = props => {
 	const adjustRouteNameForBand = name => {
 		name = name.toUpperCase();
 		let bandRoute = name.split("-");
-		let finalBandRoute = bandRoute.join(" ");
-		return finalBandRoute;
+		return bandRoute.join(" ");
 	};
 
 	const getCurrentArtist = (currentArtist, props) => {
@@ -56,15 +67,7 @@ const ArtistIndividual = props => {
 				</div>
 			</div>
 			<div className="ArtistFooter">
-				<div className="ArtistFooterSocial">
-					<h2>Social</h2>
-					<div className="SocialIcons">
-						<FontAwesomeIcon icon={faBandcamp} size="lg" />
-						<FontAwesomeIcon icon={faInstagram} size="lg" />
-						<FontAwesomeIcon icon={faFacebook} size="lg" />
-						<FontAwesomeIcon icon={faYoutube} size="lg" />
-					</div>
-				</div>
+				<DisplaySocials />
 				<div className="ArtistReleases">
 					<h2>Releases</h2>
 				</div>
