@@ -29,7 +29,7 @@ const NewsListItemIndividual = ({
 					LISTEN: <br />
 					<iframe
 						style={iframeStyles}
-						src={embed}
+						src={`"${embed}"`}
 						seamless
 						title={releaseTitle}
 					>
@@ -45,7 +45,11 @@ const NewsListItemIndividual = ({
 			<div className="NewsListItem">
 				<h2>{headline}</h2>
 				<p className="NewsListDate">{formatDate}</p>
-				<p className="NewsListContent">{newsContent[0].children[0].text}</p>
+				<p className="NewsListContent">
+					{newsContent.map((news, index) => {
+						return <span key={`${news}-${index}`}>{news.text}</span>;
+					})}
+				</p>
 				<p className="NewsListContent">
 					<br />
 					STREAM / PURCHASE BELOW
