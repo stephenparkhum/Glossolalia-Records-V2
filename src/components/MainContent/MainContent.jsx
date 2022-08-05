@@ -7,7 +7,7 @@ import RecentReleases from "../RecentRelease/RecentRelease";
 import ArtistList from "../ArtistList/ArtistList";
 import Contact from "../Contact/Contact";
 
-const MainContent = ({ title, artists }) => {
+const MainContent = ({ title, artists, news }) => {
 	return (
 		<>
 			<div className="MainContent">
@@ -15,7 +15,7 @@ const MainContent = ({ title, artists }) => {
 					<h1>{title}</h1>
 					<Switch>
 						<Route exact path="/">
-							<NewsListItem />
+							<NewsListItem news={news} />
 						</Route>
 						<Route path="/artists">
 							<ArtistList artists={artists} />
@@ -38,6 +38,7 @@ const MainContent = ({ title, artists }) => {
 MainContent.propTypes = {
 	title: PropTypes.string,
 	artists: PropTypes.array,
+	news: PropTypes.array,
 };
 
 export default MainContent;

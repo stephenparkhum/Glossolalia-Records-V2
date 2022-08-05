@@ -22,6 +22,7 @@ let DATASET = "production";
 const App = () => {
 	const [artists, setArtists] = useState([]);
 	const [albums, setAlbums] = useState([]);
+	const [news, setNews] = useState([]);
 	// const [siteData, setSiteData] = useState([]);
 
 	const getQueryType = type => encodeURIComponent(`*[_type == '${type}']`);
@@ -56,6 +57,18 @@ const App = () => {
 			})
 			.catch(err => console.error(err));
 
+		fetch(generateURL("news"))
+			.then(res => res.json())
+			.then(({ result }) => {
+				if (result.length > 0) {
+					return result;
+				}
+			})
+			.then(news => {
+				setNews(news);
+			})
+			.catch(err => console.error(err));
+
 		// fetch(generateURL("site"))
 		// 	.then(res => res.json())
 		// 	.then(({ result }) => {
@@ -75,7 +88,7 @@ const App = () => {
 				<Header />
 				<Switch>
 					<Route exact path="/">
-						<Main title="NEWS" />
+						<Main title="NEWS" news={news} />
 					</Route>
 					<Route exact path="/artists">
 						<Main artists={artists} albums={albums} title="ARTISTS" />

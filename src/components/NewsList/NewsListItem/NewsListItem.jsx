@@ -1,44 +1,72 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./NewsListItem.css";
 
-const NewsListItem = () => {
-	let iframeStyles = {
-		border: 0,
-		width: "350px",
-		height: "470px",
+// STYLING
+const iframeStyles = {
+	border: 0,
+	width: "350px",
+	height: "470px",
+};
+
+const NewsListItemIndividual = ({
+	headline,
+	postDate,
+	bandcampUrl,
+	iframeSrc,
+	releaseTitle,
+	newsContent,
+}) => {
+	const formatDate = new Date(postDate).toLocaleString("en-us", {
+		year: "numeric",
+		month: "short",
+		day: "numeric",
+	});
+	const displayIframes = iframeSrc => {
+		iframeSrc.map((embed, i) => {
+			return (
+				<p key={`${embed}-${i}`} className="listen-now-individual">
+					LISTEN: <br />
+					<iframe
+						style={iframeStyles}
+						src={embed}
+						seamless
+						title={releaseTitle}
+					>
+						<a href={bandcampUrl}>{releaseTitle}</a>
+					</iframe>
+				</p>
+			);
+		});
 	};
 
 	return (
 		<>
 			<div className="NewsListItem">
-				<h2>Juice Machine x Willowbrook collaboration out now</h2>
-				<p className="NewsListDate">04/01/2022</p>
-				<p className="NewsListContent">
-					Recorded in Spring 2019, “Juicebrook” is 40 minutes of skittering
-					harsh noise, replete with feedback destruction and tape loops and
-					typified by delayed gratification. Edition of 25.
-				</p>
+				<h2>{headline}</h2>
+				<p className="NewsListDate">{formatDate}</p>
+				<p className="NewsListContent">{newsContent[0].children[0].text}</p>
 				<p className="NewsListContent">
 					<br />
 					STREAM / PURCHASE BELOW
 					<br />
-					<p className="listen-now">
-						<p className="listen-now-individual">
-							LISTEN: <br />
-							<iframe
-								style={iframeStyles}
-								src="https://bandcamp.com/EmbeddedPlayer/album=277871534/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-								seamless
-								title="juice machine willowbrook"
-							>
-								<a href="https://glossolaliarecords.bandcamp.com/album/juicebrook">
-									Juicebrook by Juice Machine x Willowbrook
-								</a>
-							</iframe>
-						</p>
-					</p>
+					<p className="listen-now">{displayIframes(iframeSrc)}</p>
 				</p>
 			</div>
+		</>
+	);
+};
+
+const NewsListItem = ({ news }) => {
+	const displayAllNews = arr => {
+		return arr.map(item => {
+			return NewsListItemIndividual(item);
+		});
+	};
+	console.log(news);
+	return (
+		<>
+			{displayAllNews(news)}
 			<div className="NewsListItem">
 				<h2>New cassettes available now</h2>
 				<p className="NewsListDate">03/04/2022</p>
@@ -867,6 +895,19 @@ const NewsListItem = () => {
 			</div>
 		</>
 	);
+};
+
+NewsListItemIndividual.propTypes = {
+	headline: PropTypes.string,
+	postDate: PropTypes.string,
+	bandcampUrl: PropTypes.string,
+	iframeSrc: PropTypes.array,
+	releaseTitle: PropTypes.string,
+	newsContent: PropTypes.array,
+};
+
+NewsListItem.propTypes = {
+	news: PropTypes.array,
 };
 
 export default NewsListItem;
