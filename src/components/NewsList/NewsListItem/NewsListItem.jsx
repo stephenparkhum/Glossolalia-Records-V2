@@ -18,11 +18,7 @@ const NewsListItemIndividual = ({
 	releaseTitle,
 	newsContent,
 }) => {
-	const formatDate = new Date(postDate).toLocaleString("en-us", {
-		year: "numeric",
-		month: "short",
-		day: "numeric",
-	});
+	const formatDate = new Date(postDate).toLocaleDateString("en-US");
 	const currentNews = {
 		headline,
 		postDate,

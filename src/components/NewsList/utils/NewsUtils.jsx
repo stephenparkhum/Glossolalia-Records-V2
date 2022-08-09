@@ -22,12 +22,6 @@ export const displayIframes = (
 };
 
 export const displayNewsContent = content => {
-	// NEWS CONTENT
-	// loop through: newsContent[0].children
-	for (let i = 0; i < content[0].children; i++) {
-		console.log(content[0].children[i]);
-	}
-
 	const currentElement = content[0].children.map(news => {
 		return React.createElement(
 			news.marks[0] ? news.marks[0] : news._type,
