@@ -47,6 +47,13 @@ const NewsListItemIndividual = ({
 };
 
 const NewsListItem = ({ news }) => {
+	const sortedNews = news => {
+		return news.sort(
+			(dateOne, dateTwo) =>
+				new Date(dateTwo.postDate) - new Date(dateOne.postDate),
+		);
+	};
+
 	const displayAllNews = arr => {
 		return arr.map(item => {
 			return NewsListItemIndividual(item);
@@ -55,7 +62,7 @@ const NewsListItem = ({ news }) => {
 
 	return (
 		<>
-			{displayAllNews(news)}
+			{displayAllNews(sortedNews(news))}
 			<div className="NewsListItem">
 				<h2>New tapes from Menophilia, Lapsed Baptist, Coumadin</h2>
 				<p className="NewsListDate">5/07/2021</p>
