@@ -4,16 +4,12 @@ export const displayIframes = (
 	{ iframeSrc, releaseTitle, bandcampUrl },
 	iframeStyles,
 ) => {
+	console.log(iframeSrc);
 	return iframeSrc.map((embed, i) => {
 		return (
 			<p key={`${embed}-${i}`} className="listen-now-individual">
 				LISTEN: <br />
-				<iframe
-					style={iframeStyles}
-					src={`"${embed}"`}
-					seamless
-					title={releaseTitle}
-				>
+				<iframe style={iframeStyles} src={embed} seamless title={releaseTitle}>
 					<a href={bandcampUrl}>{releaseTitle}</a>
 				</iframe>
 			</p>
