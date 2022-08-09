@@ -57,62 +57,6 @@ const NewsListItem = ({ news }) => {
 		<>
 			{displayAllNews(news)}
 			<div className="NewsListItem">
-				<h2>New cassettes available now</h2>
-				<p className="NewsListDate">03/04/2022</p>
-				<p className="NewsListContent">
-					Glossolalia Records presents new work from <strong>Rohit</strong>,{" "}
-					<strong>Cesspool Dreams</strong>, and <strong>Rygmïndiňnit</strong>,
-					appearing for the first – and final – time. These releases run the
-					gamut from grinding to somber to absurd. In editions of 150, 75, and
-					an undisclosed number, respectively.
-				</p>
-				<p className="NewsListContent">
-					<br />
-					STREAM / PURCHASE BELOW
-					<br />
-					<p className="listen-now">
-						<div className="listen-now-individual">
-							LISTEN: <br />
-							<iframe
-								style={iframeStyles}
-								src="https://bandcamp.com/EmbeddedPlayer/album=2751358084/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-								seamless
-								title="rohit-stuck"
-							>
-								<a href="https://glossolaliarecords.bandcamp.com/album/stuck">
-									Stuck by Rohit
-								</a>
-							</iframe>
-						</div>
-						<div className="listen-now-individual">
-							LISTEN: <br />
-							<iframe
-								style={iframeStyles}
-								src="https://bandcamp.com/EmbeddedPlayer/album=731913658/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-								seamless
-								title="cellpool dreams"
-							>
-								<a href="https://glossolaliarecords.bandcamp.com/album/born-lost">
-									Born Lost by Cesspool Dreams
-								</a>
-							</iframe>
-						</div>
-					</p>
-					<p className="listen-now">
-						<div className="listen-now-individual">
-							<a
-								href="https://glossolaliarecords.bandcamp.com/album/lamentacion-of-drid"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								Rygmïndiňnit
-							</a>{" "}
-							will not stream.
-						</div>
-					</p>
-				</p>
-			</div>
-			<div className="NewsListItem">
 				<h2>New tapes from Menophilia, Lapsed Baptist, Coumadin</h2>
 				<p className="NewsListDate">5/07/2021</p>
 				<p className="NewsListContent">
