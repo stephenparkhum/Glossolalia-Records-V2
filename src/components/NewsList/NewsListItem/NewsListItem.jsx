@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./NewsListItem.css";
+import { displayNewsContent, displayIframes } from "../utils/NewsUtils";
 
 // STYLING
 const iframeStyles = {
@@ -22,39 +23,27 @@ const NewsListItemIndividual = ({
 		month: "short",
 		day: "numeric",
 	});
-	const displayIframes = iframeSrc => {
-		iframeSrc.map((embed, i) => {
-			return (
-				<p key={`${embed}-${i}`} className="listen-now-individual">
-					LISTEN: <br />
-					<iframe
-						style={iframeStyles}
-						src={`"${embed}"`}
-						seamless
-						title={releaseTitle}
-					>
-						<a href={bandcampUrl}>{releaseTitle}</a>
-					</iframe>
-				</p>
-			);
-		});
+	const currentNews = {
+		headline,
+		postDate,
+		bandcampUrl,
+		iframeSrc,
+		releaseTitle,
 	};
+
+	const iframeDisplay = displayIframes(currentNews, iframeStyles);
 
 	return (
 		<>
 			<div className="NewsListItem">
 				<h2>{headline}</h2>
 				<p className="NewsListDate">{formatDate}</p>
-				<p className="NewsListContent">
-					{newsContent.map((news, index) => {
-						return <span key={`${news}-${index}`}>{news.text}</span>;
-					})}
-				</p>
+				<p className="NewsListContent">{displayNewsContent(newsContent)}</p>
 				<p className="NewsListContent">
 					<br />
 					STREAM / PURCHASE BELOW
 					<br />
-					<p className="listen-now">{displayIframes(iframeSrc)}</p>
+					<p className="listen-now">{iframeDisplay}</p>
 				</p>
 			</div>
 		</>
@@ -67,7 +56,7 @@ const NewsListItem = ({ news }) => {
 			return NewsListItemIndividual(item);
 		});
 	};
-	console.log(news);
+
 	return (
 		<>
 			{displayAllNews(news)}
