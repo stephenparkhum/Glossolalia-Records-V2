@@ -38,7 +38,7 @@ const NewsListItemIndividual = ({
 				<div className="NewsListItem">
 					<h2>{headline}</h2>
 					<p className="NewsListDate">{formatDate}</p>
-					<p className="NewsListContent">{displayNewsContent(newsContent)}</p>
+					<div>{displayNewsContent(newsContent)}</div>
 					<div className="NewsListContent">
 						{iframeSrc && (
 							<>
