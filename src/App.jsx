@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useCallback, useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
@@ -9,12 +9,6 @@ import Main from "./components/Main/Main";
 import LeftSocial from "./components/LeftSocial/LeftSocial";
 import ButtonMobileMenu from "./components/BottomMobileMenu/BottomMobileMenu";
 // import { artistsRef } from "./firebaseSetup";
-
-// Google Analytics
-import ReactGA from "react-ga";
-import { useCallback } from "react";
-ReactGA.initialize("UA-65527149-2");
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 let PROJECT_ID = "wbp0yjss";
 let DATASET = "production";
