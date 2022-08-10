@@ -26,6 +26,25 @@ const App = () => {
 		)}`;
 	}, []);
 
+	const getNews = () => {
+		return fetch(generateURL("news"))
+			.then(res => res.json())
+			.then(({ result }) => {
+				if (result.length > 0) {
+					return result;
+				}
+			})
+			.then(data => {
+				setNews(data);
+			})
+			.catch(err => console.error(err));
+	};
+
+	const newsList = React.useMemo(() => {
+		getNews();
+		return news;
+	}, [news]);
+
 	useEffect(() => {
 		fetch(generateURL("band"))
 			.then(res => res.json())
@@ -51,29 +70,7 @@ const App = () => {
 			})
 			.catch(err => console.error(err));
 
-		fetch(generateURL("news"))
-			.then(res => res.json())
-			.then(({ result }) => {
-				if (result.length > 0) {
-					return result;
-				}
-			})
-			.then(news => {
-				setNews(news);
-			})
-			.catch(err => console.error(err));
-
-		// fetch(generateURL("site"))
-		// 	.then(res => res.json())
-		// 	.then(({ result }) => {
-		// 		if (result.length > 0) {
-		// 			return result;
-		// 		}
-		// 	})
-		// 	.then(siteData => {
-		// 		setSiteData(siteData);
-		// 	})
-		// 	.catch(err => console.error(err));
+		getNews();
 	}, [generateURL]);
 
 	return (
@@ -82,7 +79,7 @@ const App = () => {
 				<Header />
 				<Switch>
 					<Route exact path="/">
-						<Main title="NEWS" news={news} />
+						<Main title="NEWS" news={newsList} />
 					</Route>
 					<Route exact path="/artists">
 						<Main artists={artists} albums={albums} title="ARTISTS" />
