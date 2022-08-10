@@ -1,4 +1,29 @@
 import React from "react";
+import { PortableText } from "@portabletext/react";
+
+const components = {
+	// types: {
+	// 	image: ({value}) => <img src={value.imageUrl} />,
+	// 	callToAction: ({value, isInline}) =>
+	// 		isInline ? (
+	// 			<a href={value.url}>{value.text}</a>
+	// 		) : (
+	// 			<div className="callToAction">{value.text}</div>
+	// 		),
+	// },
+	marks: {
+		link: ({ children, value }) => {
+			const rel = !value.href.startsWith("/")
+				? "noreferrer noopener"
+				: undefined;
+			return (
+				<a href={value.href} rel={rel}>
+					<strong>{children}</strong>
+				</a>
+			);
+		},
+	},
+};
 
 export const displayIframes = (
 	{ iframeSrc, releaseTitle, bandcampUrl },
@@ -17,14 +42,5 @@ export const displayIframes = (
 };
 
 export const displayNewsContent = content => {
-	console.log(content);
-	const currentElement = content[0].children.map(news => {
-		return React.createElement(
-			news.marks[0] ? news.marks[0] : news._type,
-			null,
-			news.text,
-		);
-	});
-
-	return <>{currentElement}</>;
+	return <PortableText value={content} components={components} />;
 };
