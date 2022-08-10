@@ -43,9 +43,9 @@ const NewsListItemIndividual = ({
 							<br />
 							STREAM / PURCHASE BELOW
 							<br />
+							<p className="listen-now">{iframeDisplay}</p>
 						</>
 					)}
-					<p className="listen-now">{iframeDisplay}</p>
 				</p>
 			</div>
 		</>
