@@ -17,6 +17,7 @@ const NewsListItemIndividual = ({
 	iframeSrc,
 	releaseTitle,
 	newsContent,
+	show,
 }) => {
 	const formatDate = new Date(postDate).toLocaleDateString("en-US");
 	const currentNews = {
@@ -32,23 +33,25 @@ const NewsListItemIndividual = ({
 		: [];
 
 	return (
-		<>
-			<div className="NewsListItem">
-				<h2>{headline}</h2>
-				<p className="NewsListDate">{formatDate}</p>
-				<p className="NewsListContent">{displayNewsContent(newsContent)}</p>
-				<p className="NewsListContent">
-					{iframeSrc && (
-						<>
-							<br />
-							STREAM / PURCHASE BELOW
-							<br />
-							<p className="listen-now">{iframeDisplay}</p>
-						</>
-					)}
-				</p>
-			</div>
-		</>
+		show && (
+			<>
+				<div className="NewsListItem">
+					<h2>{headline}</h2>
+					<p className="NewsListDate">{formatDate}</p>
+					<p className="NewsListContent">{displayNewsContent(newsContent)}</p>
+					<p className="NewsListContent">
+						{iframeSrc && (
+							<>
+								<br />
+								STREAM / PURCHASE BELOW
+								<br />
+								<p className="listen-now">{iframeDisplay}</p>
+							</>
+						)}
+					</p>
+				</div>
+			</>
+		)
 	);
 };
 
@@ -850,6 +853,7 @@ NewsListItemIndividual.propTypes = {
 	iframeSrc: PropTypes.array,
 	releaseTitle: PropTypes.string,
 	newsContent: PropTypes.array,
+	show: PropTypes.bool,
 };
 
 NewsListItem.propTypes = {

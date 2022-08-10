@@ -6,12 +6,12 @@ export const displayIframes = (
 ) => {
 	return iframeSrc.map((embed, i) => {
 		return (
-			<p key={`${embed}-${i}`} className="listen-now-individual">
+			<div key={`${embed}-${i}`} className="listen-now-individual">
 				LISTEN: <br />
 				<iframe style={iframeStyles} src={embed} seamless title={releaseTitle}>
 					<a href={bandcampUrl}>{releaseTitle}</a>
 				</iframe>
-			</p>
+			</div>
 		);
 	});
 };
