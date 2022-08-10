@@ -4,7 +4,6 @@ export const displayIframes = (
 	{ iframeSrc, releaseTitle, bandcampUrl },
 	iframeStyles,
 ) => {
-	console.log(iframeSrc);
 	return iframeSrc.map((embed, i) => {
 		return (
 			<p key={`${embed}-${i}`} className="listen-now-individual">

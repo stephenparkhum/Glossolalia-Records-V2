@@ -27,7 +27,9 @@ const NewsListItemIndividual = ({
 		releaseTitle,
 	};
 
-	const iframeDisplay = displayIframes(currentNews, iframeStyles);
+	const iframeDisplay = iframeSrc
+		? displayIframes(currentNews, iframeStyles)
+		: [];
 
 	return (
 		<>
@@ -36,9 +38,13 @@ const NewsListItemIndividual = ({
 				<p className="NewsListDate">{formatDate}</p>
 				<p className="NewsListContent">{displayNewsContent(newsContent)}</p>
 				<p className="NewsListContent">
-					<br />
-					STREAM / PURCHASE BELOW
-					<br />
+					{iframeSrc && (
+						<>
+							<br />
+							STREAM / PURCHASE BELOW
+							<br />
+						</>
+					)}
 					<p className="listen-now">{iframeDisplay}</p>
 				</p>
 			</div>
