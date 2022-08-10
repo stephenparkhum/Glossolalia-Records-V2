@@ -13,11 +13,8 @@ const components = {
 	// },
 	marks: {
 		link: ({ children, value }) => {
-			const rel = !value.href.startsWith("/")
-				? "noreferrer noopener"
-				: undefined;
 			return (
-				<a href={value.href} rel={rel}>
+				<a href={value.href} target="_blank" rel="noreferrer noopener">
 					<strong>{children}</strong>
 				</a>
 			);
