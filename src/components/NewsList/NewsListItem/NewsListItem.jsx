@@ -39,16 +39,16 @@ const NewsListItemIndividual = ({
 					<h2>{headline}</h2>
 					<p className="NewsListDate">{formatDate}</p>
 					<p className="NewsListContent">{displayNewsContent(newsContent)}</p>
-					<p className="NewsListContent">
+					<div className="NewsListContent">
 						{iframeSrc && (
 							<>
 								<br />
 								STREAM / PURCHASE BELOW
 								<br />
-								<p className="listen-now">{iframeDisplay}</p>
+								<div className="listen-now">{iframeDisplay}</div>
 							</>
 						)}
-					</p>
+					</div>
 				</div>
 			</>
 		)
